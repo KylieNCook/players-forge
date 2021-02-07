@@ -20,8 +20,8 @@ their social media accounts in order to share and promote their own mods.
 
 ### Interview 1
 
-**Summary:**
- - Logan stated that he would like a service that is not convoluted by ads.\
+**Summary:** Logan stated that he would like a service that is not convoluted by ads.
+
 **Interviewer:** Fernando Diaz\
 **Interviewee:** Logan(Loggy) Haga\
 **When:** February 6, 2021\
