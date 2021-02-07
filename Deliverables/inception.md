@@ -20,7 +20,11 @@ their social media accounts in order to share and promote their own mods.
 
 ### Interview 1
 
-**Summary:** Logan stated that he would like a service that is not convoluted by ads.
+**Summary:**
+Logan stated that he would like a service that is not convoluted by ads, and that he 
+would like a service that offers an easy way to install mods. However, such a system should
+be harder than a system like Steam Workshop. A service like PlayersForge, must be something
+easily as conventient as Steam yet offer a greater level of support to older games.\
 
 **Interviewer:** Fernando Diaz\
 **Interviewee:** Logan(Loggy) Haga\
@@ -42,7 +46,16 @@ user, specially those that are not fully versed in computers
 -"The service must be easy and more convenient than steam"
 -"I believe that your service would be ideal for older games, such as Victoria a game I play alot"
 
-**Assessment: Must have:N/A / Nice to have: N/A / Don’t care:**
+**Must Have:**
+Logan mentioned that a mod system like ours must have a simple layout, and 
+must be easy to use for people who are not very good with computers.\
+
+**Nice To Have:**
+Logan did not mention anything in regards to this.\
+
+**Don't Care**
+Logan beliefs that having minimal amounts of ads would be best to not
+confuse the user.
 
 ### Interview 2:
 
