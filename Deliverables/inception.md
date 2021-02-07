@@ -17,11 +17,11 @@ their social media accounts in order to share and promote their own mods.
 
 
 ## 3. Interviews summary:
-### Interview 0
+
+### Interview 1
 
 **Summary:**
-**Assessment: Must have:N/A / Nice to have: N/A / Don’t care:**
- - Logan stated that he would like a service that is not convoluted by ads.
+ - Logan stated that he would like a service that is not convoluted by ads.\
 **Interviewer:** Fernando Diaz\
 **Interviewee:** Logan(Loggy) Haga\
 **When:** February 6, 2021\
@@ -42,8 +42,9 @@ user, specially those that are not fully versed in computers
 -"The service must be easy and more convenient than steam"
 -"I believe that your service would be ideal for older games, such as Victoria a game I play alot"
 
+**Assessment: Must have:N/A / Nice to have: N/A / Don’t care:**
 
-### Interview 1:
+### Interview 2:
 
 **Summary:**
 
@@ -58,7 +59,7 @@ user, specially those that are not fully versed in computers
 
 **Assessment: Must have / Nice to have / Don’t care:**
 
-### Interview 2:
+### Interview 3:
 
 **Summary:**
 
