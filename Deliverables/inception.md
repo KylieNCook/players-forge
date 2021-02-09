@@ -78,24 +78,40 @@ where he can read a mod's description before entering the mod's page.
 
 **Assessment: Must have / Nice to have / Don’t care:**
   - Keep track of mods being used/wanted (Must)
-  - Feature mods (Nice)
-  - Category list (Nice)
-  - Show file size (Nice)
+  - Feature mods by mod makers of all experiences(Nice)
+  - Category list of games (Nice)
+  - Show file size of downlaods (Nice)
   - Chat sections (Don't Care)
 
 ### Interview 3:
 
-**Summary:**
+**Summary:** Tom finds mods through community Discord, Twitter, Youtube, or Reddit. He hates having to find mods on different websites.
+When imaginging how he would like a website containing mods for a variety of games, he would like a simple and family friendly user interface
+like Apple's app store turned into a website.
 
 **Interviewer:** Kylie Cook\
 **Interviewee:** Tom Cislo\
-**When:**\
-**Consumer Segment:**
+**When:** February 9, 2021\
+**Consumer Segment:** Gamer
 
 **Key Insights:**
+  - Simplified layout when searching for games and in general
+  - Prefers the simple layout like the Apple app store
+  - Safety and family friendly is important
 
 **Representative Quotes:**
+  - "There is no clear cut place to see what mods exist for a game."
+  - "May be missing out on cool features that currently exist."
+  - "General app store layout is what is expected: updating, versioning, etc."
+  - "Nice to have more family friendly advertisements for kids that game."
+  - "Non-relevant items when searching is so aggravating."
 
 **Assessment: Must have / Nice to have / Don’t care:**
+  - Verification that there is no embedded malicious code, or verify developers (Must Have)
+  - Very easy UI/Dashboard (Must Have)
+  - Log In that shows what mods they have and what updates are available (Nice To Have)
+  - Have reccommendations based on what games are installed on a PC (Nice To Have)
+  - Rating and reviews (Nice To Have)
+  - Excessive advertising (Don't Care)
 
 ## 4. Final value proposition and consumer segments:
