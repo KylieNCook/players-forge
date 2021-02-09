@@ -27,50 +27,61 @@ be harder than a system like Steam Workshop. A service like PlayersForge, must b
 easily as conventient as Steam yet offer a greater level of support to older games.\
 
 **Interviewer:** Fernando Diaz\
-**Interviewee:** Logan(Loggy) Haga\
+**Interviewee:** Logan (Loggy) Haga\
 **When:** February 6, 2021\
 **Consumer Segment:**
 Logan is a PC gamer, he plays games such as League of Legends, and Victoria 2.
 He is studying education, and wants to bring education to the younger generation.
 
 **Key Insights:**
-- He beliefs that this service would be ideal for older games, if it is just as
-convenient as steam or better. He did say, he plays an older game called:
-Victoria, which does not have many mods given its age.
-- But having a service that is more centralized can help many people find mods
-for their favorite games, specially ones that are not fully supported by Steam.
-- Futhermore, Logan stated that such a service has to be easy to use by any
+  - He beliefs that this service would be ideal for older games, 
+if it is just as convenient as steam or better. He did say, he plays an 
+older game called: Victoria, which does not have many mods given its age.
+  - But having a service that is more centralized can help many people find 
+mods for their favorite games, specially ones that are not fully supported by Steam.
+  - Futhermore, Logan stated that such a service has to be easy to use by any
 user, specially those that are not fully versed in computers
 
 **Representative Quotes:**
--"The service must be easy and more convenient than steam"
--"I believe that your service would be ideal for older games, such as Victoria a game I play alot"
+  - "The service must be easy and more convenient than steam"
+  - "I believe that your service would be ideal for older games, such as Victoria a game I play alot"
 
-**Must Have:**
-Logan mentioned that a mod system like ours must have a simple layout, and 
-must be easy to use for people who are not very good with computers.\
-
-**Nice To Have:**
-Logan did not mention anything in regards to this.\
-
-**Don't Care**
-Logan beliefs that having minimal amounts of ads would be best to not
-confuse the user.
+**Assessment: Must have / Nice to have / Don’t care:**
+  - Logan mentioned that a mod system like ours must have a simple layout, 
+  and must be easy to use for people who are not very good with computers. (Must)
+  - Logan did not mention anything in regards to this. (Nice)
+  - Logan beliefs that having minimal amounts of ads would be best 
+  to not confuse the user. (Don't Care)
 
 ### Interview 2:
 
-**Summary:**
+**Summary:** Myles currently uses Google to find mods through several websites and forums. He doesn't like how
+websites clutter their pages with advertisements and rows of game mods. He wants a website that is easy and simple to navigate,
+where he can read a mod's description before entering the mod's page.
 
 **Interviewer:** Kylie Cook\
 **Interviewee:** Myles Abril\
-**When:**\
-**Consumer Segment:**
+**When:** February 8, 2021\
+**Consumer Segment:** Gamer
 
 **Key Insights:**
+  - Simple and welcoming UI
+  - No clutter (Ads and organization)
+  - Keep track of mods being used (or mods they want to use)
+  - Give beginner modders attention too
 
 **Representative Quotes:**
+  - "Don't shut out the beginner creators."
+  - "Ads take away from the experience."
+  - "Mods for a variety of games will advertise the games I don't have."
+  - "The biggest part is the user interface."
 
 **Assessment: Must have / Nice to have / Don’t care:**
+  - Keep track of mods being used/wanted (Must)
+  - Feature mods (Nice)
+  - Category list (Nice)
+  - Show file size (Nice)
+  - Chat sections (Don't Care)
 
 ### Interview 3:
 
