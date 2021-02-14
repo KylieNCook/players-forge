@@ -166,7 +166,7 @@ easily. Not aware of any other online modding websites such as GameBanana.
 **Representative Quotes:**
   - "I barely know where to begin to install mods."
   - "They always hog so much storage on my hard drive"
-  - "Steam doens't always have mod support with their games in the workshop."
+  - "Steam doesn't always have mod support with their games in the workshop."
 
 **Assessment: Must have / Nice to have / Don’t care:**
   - Verification that there is no embedded malicious code, or verify developers (Must Have)
@@ -202,17 +202,47 @@ install mods from external sources. Would prefer a one stop place to find and in
   - Show file size of downlaods (Nice)
   - Chat sections (Don't Care)
 
+### Interview 7:
+**Summary:** Although this service would resemble others that already exist, Zach would prefer this one over others if it had a less glitchy sorting system and better ways to identify reputable mod publishers. \
+**Interviewer:** Conrad Murphy \
+**Interviewee:** Zach \
+**Date:** February 14, 2021 \
+**Consumer Segments:** Frequent user, but not creator, of game mods.
+
+**Key Insights:**
+- Different games each tend to have their own modding website.
+- It's usually not hard to find desired mods, though sometimes it is.
+- Likes, comments, and a reputation system are important for ensuring that mod files are of good quality.
+
+**Representative Quotes:**
+- "I had trouble finding mods for Rocket League for instance."
+- "This sounds a lot like Game Banana."
+- "I would suggest a rep system for profiles so that you could filter out the garbage."
+- "I would use this over Game Banana if it were more accessible/easier to use."
+
+**Feature Assessments: Must Have/Nice to Have/Don't Care**
+- Download and publish mods (Must)
+- Account system for publishing mods, but not for downloading (Must)
+- Satisfactory sorting system for displaying search results (Must)
+- Liking/Commenting system (Nice)
+- Reputation system for profiles (Nice)
+
+**Final Verdict: Must Have/Nice to Have/Don't Care** \
+Nice to have
 
 ## 4. Final value proposition and consumer segments:
 **What is our product?**
 - Our product is a centralized repository for game modifications.
 - It reaches a wide consumer base, providing mods to older games and games not supported by the Steam Workshop
 - The product is simple and easy to use. This allows for many users who are not very savvy with a computer to use the service.
+
 **Target Customer:**
 - The primary customers are the average gamers.
 - The secondary customers are mod creators.
 - The tertiary customers are companies that provide the tools to create modifications, or social media services that can promote the mods.
+
 **Value Provided:**
-- The value provided is the time saving that the service can provide.
-- I can't think of anything else at the moment.
+- The product can provide the ability to save time and hassle with finding desired mods.
+- The product can display valuable feedback from users on certain mods for quality assurance.
+
 **Why product is unique?**
