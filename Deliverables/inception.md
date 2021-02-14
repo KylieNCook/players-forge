@@ -135,6 +135,12 @@ features proper communication. Or features that can unite players together.
 allow users to find different games in the same category that may appeal to them. A recommendation system can also engage users to find
 new games they might like, while also giving them a list of relevant mods. 
 
+**Representative Quotes:**
+- "I believe it would be a fun game if it was interactive, such as a live chat. Or just having voice chats for players to engange 
+with each other." 
+- "Although I understand the name, I believe is a bit too long. The name feels like is just oriented to a single community of 
+fantasy users. Almost as if the service was tailored for people who play DnD games, rather than gamers."
+
 **Assessment: Must have:N/A / Nice to have: N/A / Don’t care:**
 - Must have: 
  Easy communication or team chat. \
@@ -145,11 +151,58 @@ Ability to link projects to different social media and professional platforms.
 - Don't care:
 Game Billboards. 
 
+### Interview 5:
+**Summary:** Found lack of games supported on the steam workshop. Even games that are supported on the Steam Workshop don’t allow you to directly apply the mods to your game 
+easily. Not aware of any other online modding websites such as GameBanana.
+**Interviewer:** Jared McNeece \
+**Interviewee:** Kolton Koltrap \
+**When:** February 13, 2021\
+**Consumer Segment:** PC Gamer\
+
+**Key Insights:**
+- According to Kolton, he has very little modding experience with most of it being done on the steam game Left 4 Dead 2. What he hopes for is a more simplified modding experience
+  with an ease of installation. 
+
 **Representative Quotes:**
-- "I believe it would be a fun game if it was interactive, such as a live chat. Or just having voice chats for players to engange 
-with each other." 
-- "Although I understand the name, I believe is a bit too long. The name feels like is just oriented to a single community of 
-fantasy users. Almost as if the service was tailored for people who play DnD games, rather than gamers."
+  - "I barely know where to begin to install mods."
+  - "They always hog so much storage on my hard drive"
+  - "Steam doens't always have mod support with their games in the workshop."
+
+**Assessment: Must have / Nice to have / Don’t care:**
+  - Verification that there is no embedded malicious code, or verify developers (Must Have)
+  - Very easy UI/Dashboard (Must Have)
+  - Log In that shows what mods they have and what updates are available (Nice To Have)
+  - Have reccommendations based on what games are installed on a PC (Nice To Have)
+  - Rating and reviews (Nice To Have)
+  - Excessive advertising (Don't Care)
+
+### Interview 6:
+
+**Summary:** Rarely uses mods in video games unless they are easily implemented. Doesn’t like dealing with file explorer and having to follow archaic steps to 
+install mods from external sources. Would prefer a one stop place to find and install new mods.
+
+**Interviewer:** Jared McNeece\
+**Interviewee:** Noah Harris\
+**When:** February 13, 2021\
+**Consumer Segment:** PC Gamer\
+
+**Key Insights:**
+  - Noah has a pretty expansive experience with modding, with almost all of it being on the steam workshop with games such as Skyrim and Left 4 Dead 2. As issue he has with the experience
+    is that installed mods are not indentifiable inside the file explorer; they are downloaded with a string of numbers for their filename
+
+**Representative Quotes:**
+  - "Simpler mod storage process"
+  - "Clear and concise file naming for mods"
+  - "Mods should be able to be sorted by popularity/ most downloads."
+
+**Assessment: Must have / Nice to have / Don’t care:**
+  - Keep track of mods being used/wanted (Must)
+  - Feature mods by mod makers of all experiences(Nice)
+  - Category list of games (Nice)
+  - Show file size of downlaods (Nice)
+  - Chat sections (Don't Care)
+
+
 ## 4. Final value proposition and consumer segments:
 **What is our product?**
 - Our product is a centralized repository for game modifications.
