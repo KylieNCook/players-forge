@@ -14,10 +14,18 @@ favorite mods will let you find similar content, updates, and store them in your
 their social media accounts in order to share and promote their own mods.
 
 ## 2. Initial value proposition and consumer segments:
-- 
+**Initial Value Proposition:** 
+- PlayersForge offers a centralized mod service that can save time and effort.
+- Make a centralized service that can save the time of it users
+- Modifications will be more simple to use, and easy to find
 
+**Consumer Segements**
+- Service will be of use to individuals who like gaming.
+- Independent modders who want to put their work out there.
+- Potential recruiters.
+- Advertisers who wish to expose tools and products that relate to games or mod creation.
 
-## 3. Interviews summary:
+## 3. Interviews:
 
 ### Interview 1
 
@@ -25,7 +33,7 @@ their social media accounts in order to share and promote their own mods.
 Logan stated that he would like a service that is not convoluted by ads, and that he 
 would like a service that offers an easy way to install mods. However, such a system should
 be harder than a system like Steam Workshop. A service like PlayersForge, must be something
-easily as conventient as Steam yet offer a greater level of support to older games.\
+easily as conventient as Steam yet offer a greater level of support to older games.
 
 **Interviewer:** Fernando Diaz\
 **Interviewee:** Logan (Loggy) Haga\
@@ -133,9 +141,9 @@ new games they might like, while also giving them a list of relevant mods.
  Flexibity across different Operating Systems, such as Linux, Windows, or MacOs.
 - Nice to have:
 Live chat or voice chat, not a necessity. \
-Ability to link projects to different social media and professional platforms.\
+Ability to link projects to different social media and professional platforms.
 - Don't care:
-Game Billboards. \
+Game Billboards. 
 
 **Representative Quotes:**
 - "I believe it would be a fun game if it was interactive, such as a live chat. Or just having voice chats for players to engange 
