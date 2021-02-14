@@ -151,3 +151,15 @@ with each other."
 - "Although I understand the name, I believe is a bit too long. The name feels like is just oriented to a single community of 
 fantasy users. Almost as if the service was tailored for people who play DnD games, rather than gamers."
 ## 4. Final value proposition and consumer segments:
+**What is our product?**
+- Our product is a centralized repository for game modifications.
+- It reaches a wide consumer base, providing mods to older games and games not supported by the Steam Workshop
+- The product is simple and easy to use. This allows for many users who are not very savvy with a computer to use the service.
+**Target Customer:**
+- The primary customers are the average gamers.
+- The secondary customers are mod creators.
+- The tertiary customers are companies that provide the tools to create modifications, or social media services that can promote the mods.
+**Value Provided:**
+- The value provided is the time saving that the service can provide.
+- I can't think of anything else at the moment.
+**Why product is unique?**
