@@ -135,6 +135,7 @@ Live chat or voice chat, not a necessity. \
 Ability to link projects to different social media and professional platforms.\
 - Don't care:
 Game Billboards. \
+
 **Representative Quotes:**
 - "I believe it would be a fun game if it was interactive, such as a live chat. Or just having voice chats for players to engange 
 with each other." 
