@@ -1,7 +1,7 @@
 # D.1 Inception
 
 Group 08 – PlayersForge\
-Group Members: Kylie Cook,
+Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad Murphy, Noah Olono
 
 ## 1. Introduction:
 
