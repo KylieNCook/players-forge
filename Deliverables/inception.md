@@ -14,6 +14,7 @@ favorite mods will let you find similar content, updates, and store them in your
 their social media accounts in order to share and promote their own mods.
 
 ## 2. Initial value proposition and consumer segments:
+- 
 
 
 ## 3. Interviews summary:
