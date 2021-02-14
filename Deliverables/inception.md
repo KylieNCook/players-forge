@@ -113,5 +113,31 @@ like Apple's app store turned into a website.
   - Have reccommendations based on what games are installed on a PC (Nice To Have)
   - Rating and reviews (Nice To Have)
   - Excessive advertising (Don't Care)
+  
+### Interview 4:
+**Summary:** Carson believes that a system such a PlayersForge can be useful, as long as it
+features proper communication. Or features that can unite players together.  
+**Interviewer:** Fernando Diaz \
+**Interviewee:** Carson Posciask \
+**When:** February 7, 2021\
+**Consumer Segment:** Carson is a gamer, obsessed with the KFC game: I love You Colonel Sanders. As well as fps games such as Rainbow Siege Six, and Call of Duty.\
+**Key Insights:**
+- According to Carson, it is important to have categories to the games. Categories will make games easier to find, and will also
+allow users to find different games in the same category that may appeal to them. A recommendation system can also engage users to find
+new games they might like, while also giving them a list of relevant mods. 
 
+**Assessment: Must have:N/A / Nice to have: N/A / Don’t care:**
+- Must have: 
+ Easy communication or team chat. \
+ Flexibity across different Operating Systems, such as Linux, Windows, or MacOs.
+- Nice to have:
+Live chat or voice chat, not a necessity. \
+Ability to link projects to different social media and professional platforms.\
+Don't care:
+Game Billboards. \
+**Representative Quotes:**
+- "I believe it would be a fun game if it was interactive, such as a live chat. Or just having voice chats for players to engange 
+with each other." 
+- "Although I understand the name, I believe is a bit too long. The name feels like is just oriented to a single community of 
+fantasy users. Almost as if the service was tailored for people who play DnD games, rather than gamers."
 ## 4. Final value proposition and consumer segments:
