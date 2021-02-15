@@ -231,15 +231,12 @@ this one over others if it had a robust sorting system and better ways to identi
 - "I would suggest a rep system for profiles so that you could filter out the garbage."
 - "I would use this over Game Banana if it were more accessible/easier to use."
 
-**Feature Assessments: Must Have/Nice to Have/Don't Care**
+**Feature Assessments: Must have / Nice to have / Don't care**
 - Download and publish mods (Must have)
 - Account system for publishing mods, but not for downloading (Must have)
 - Satisfactory sorting system for displaying search results (Must have)
 - Liking/Commenting system (Nice to have)
 - Reputation system for profiles (Nice to have)
-
-**Final Verdict: Must Have/Nice to Have/Don't Care**
-Nice to have
 
 ### Interview 8:
 
@@ -267,10 +264,6 @@ He used the Technic Launcher, which uses a client-server architecture, to instal
 - Liking/Commenting system (Nice to have)
 - Reputation system for profiles (Nice to have)
 
-**Final Verdict: Must Have/Nice to Have/Don't Care**\
-Nice to have
-
-
 ### Interview 9:
 **Summary:** The service is similar to others but with the right features to make it stand out
 Joe would be willing to use it. He wants to have a place to download mods that have a secure
@@ -297,9 +290,6 @@ and inconvenient.
 - Algorithm that provides new mods based on what a user frequently downloads (Must)
 - Following System (Nice)
 - A way to make sure each downloadable file is safe and contains no virus (Must)
-
-**Final Verdict: Must Have/Nice to Have/Don't Care** \
-Nice to have
 
 ### Interview 10
 **Summary:** Tom is a mod user who uses a similar service called Nexus Mods. Nexus is
@@ -338,9 +328,6 @@ difficulty for publishers.\
 - Searching by category (Nice to have)
 - Download speed cap (Don't care)
 - File size limit (Don't care)
-
-**Final Verdict: Must Have/Nice to Have/Don't Care**\
-Must have
 
 ## 4. Final value proposition and consumer segments:
 **What is our product?**
