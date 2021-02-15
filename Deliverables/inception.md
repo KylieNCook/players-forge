@@ -230,6 +230,34 @@ install mods from external sources. Would prefer a one stop place to find and in
 **Final Verdict: Must Have/Nice to Have/Don't Care** \
 Nice to have
 
+### Interview 8:
+
+**Summary:** Garett has used modifications for Minecraft previously but does not do so currently. He used the Technic Launcher, which uses a client-server architecture, to install modpacks previously. \
+**Interviewer:** David Hermann \
+**Interviewee:** Garett Stone \
+**Date:** February 14, 2021 \
+**Consumer Segments:** Former Minecraft mod user.
+
+**Key Insights:**
+- Mod services should be easy to use
+- Mods, modpacks, and their dependencies should be in one place
+- Services should attempt to filter out harmful software e.g. viruses and malware
+
+**Representative Quotes:**
+- "It should be easy to use."
+- "I don't want to search through multiple websites for mods."
+- "Some websites could give viruses or malware."
+
+**Feature Assessments: Must Have/Nice to Have/Don't Care**
+- Download and publish mods (Nice to have)
+- Account system for publishing mods, but not for downloading (Nice to have)
+- Satisfactory sorting system for displaying search results (Must have)
+- Liking/Commenting system (Nice to have)
+- Reputation system for profiles (Nice to have)
+
+**Final Verdict: Must Have/Nice to Have/Don't Care** \
+Nice to have
+
 ## 4. Final value proposition and consumer segments:
 **What is our product?**
 - Our product is a centralized repository for game modifications.
