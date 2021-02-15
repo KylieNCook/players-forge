@@ -205,7 +205,7 @@ install mods from external sources. Would prefer a one stop place to find and in
 ### Interview 7:
 **Summary:** Although this service would resemble others that already exist, Zach would prefer this one over others if it had a less glitchy sorting system and better ways to identify reputable mod publishers. \
 **Interviewer:** Conrad Murphy \
-**Interviewee:** Zach \
+**Interviewee:** Zach (last name not provided) \
 **Date:** February 14, 2021 \
 **Consumer Segments:** Frequent user, but not creator, of game mods.
 
@@ -221,14 +221,52 @@ install mods from external sources. Would prefer a one stop place to find and in
 - "I would use this over Game Banana if it were more accessible/easier to use."
 
 **Feature Assessments: Must Have/Nice to Have/Don't Care**
-- Download and publish mods (Must)
-- Account system for publishing mods, but not for downloading (Must)
-- Satisfactory sorting system for displaying search results (Must)
-- Liking/Commenting system (Nice)
-- Reputation system for profiles (Nice)
+- Download and publish mods (Must have)
+- Account system for publishing mods, but not for downloading (Must have)
+- Satisfactory sorting system for displaying search results (Must have)
+- Liking/Commenting system (Nice to have)
+- Reputation system for profiles (Nice to have)
 
 **Final Verdict: Must Have/Nice to Have/Don't Care** \
 Nice to have
+
+### Interview 8
+**Summary:** Tom is a modder who uses a similar service called Nexus Mods. Nexus is good but has various shortcomings, such as lack of community involvement and excessive difficulty for publishers. \
+**Interviewer:** Conrad Murphy \
+**Interviewee:** Tom (last name not provided) \
+**Date:** February 14, 2021 \
+**Consumer Segment:** User and creator of mods for games; creator of tutorials and tools for other modders
+
+**Key Insights:**
+- The service should heavily facilitate community interaction.
+- The service should make it easy to find mods and games that one is looking for.
+- The service should make it easy to publish mods and not add extra unnecessary steps.
+- Vital information and tools for mod creators should be provided and visible.
+- There is almost no representation for mobile mods and console mods.
+
+**Representative Quotes:**
+- "To get popularity for your service, you have to include mods for games that people want to mod."
+- "Modders want the game to succeed and the community to thrive."
+- "I had trouble finding valuable tools and vital modding info on Nexus."
+- "One thing the service absolutely has to have is an easy way to add mods for games that aren't supported."
+- "If your service had a lot more support for strong community and encouraging modders/mod makers, I'd have chosen it over Nexus."
+- "I do think there is room for a competitor to Nexus."
+
+**Feature Assessments: Must Have/Nice to Have/Don't Care**
+- Pages for community involvement that are attractive to use (Must have)
+- Lightweight, simple interface for publishing a mod (Must have)
+- A way to add new games to the website (Must have)
+- A modding tools/information page for each game (Must have)
+- Likes/rep system (Nice to have)
+- Major representation for newer mods (Nice to have)
+- Rest API (Nice to have)
+- Thumbnail images for searching mods (Nice to have)
+- Searching by category (Nice to have)
+- Download speed cap (Don't care)
+- Filesize limit (Don't care)
+
+**Final Verdict: Must Have/Nice to Have/Don't Care** \
+Must have
 
 ## 4. Final value proposition and consumer segments:
 **What is our product?**
@@ -244,5 +282,9 @@ Nice to have
 **Value Provided:**
 - The product can provide the ability to save time and hassle with finding desired mods.
 - The product can display valuable feedback from users on certain mods for quality assurance.
+- The product can make mods far easier and faster to publish.
+- The product provides support for a thriving modding community.
 
 **Why product is unique?**
+- Provides a platform of deep community interaction.
+- Provides helpful information for new modders on how to begin creating mods.
