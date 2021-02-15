@@ -258,6 +258,32 @@ Nice to have
 **Final Verdict: Must Have/Nice to Have/Don't Care** \
 Nice to have
 
+
+### Interview 8:
+**Summary:** The service is simlar to others but with the right features to make it stand out Joe would be willing to use it. He wants to have a place to download mods that have a secure and moderated environment like Steam. \
+**Interviewer:** Noah Olono \
+**Interviewee:** Joe \
+**Date:** February 14, 2021 \
+**Consumer Segments:** PC Gamer
+
+**Key Insights:**
+- Joe is someone who usually downloads mods from one source which is Steam Workshop. He doesn't like to search a lot of websites and likes to keep them organized. Joe wants to have a way to download mods in a simple way compared to Steam which he described as more strict and inconvenient.  
+
+**Representative Quotes:**
+- "Easy and realiable"
+- "This reminds me of Steam Workshop but with more freedom"
+- "There should be a feature that makes it stand out from the rest.
+
+**Feature Assessments: Must Have/Nice to Have/Don't Care**
+- Download and publish mods (Must)
+- Account system that enables users to interact, communicate, and publish mods (Must)
+- Algorithm that provides new mods based on what a user frequently downloads (Must)
+- Following System (Nice)
+- A way to make sure each downloadable file is safe and contains no virus (Must)
+
+**Final Verdict: Must Have/Nice to Have/Don't Care** \
+Nice to have
+
 ## 4. Final value proposition and consumer segments:
 **What is our product?**
 - Our product is a centralized repository for game modifications.
