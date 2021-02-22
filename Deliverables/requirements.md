@@ -63,9 +63,73 @@ preferences inside of a simple, convenient, and eye-appealing design.
 
 ## 6. Use Cases
 **6.1 Use case diagram**
+
 Screenshot link: https://prnt.sc/103ec7c
 
 **6.2 Use case descriptions and interface sketch**
+**Use Case**: Search for mods
+**Actor**: User
+**Description**: User can use a search bar to find specific mods 
+**Preconditions**: Insert request into search bar
+**Postconditions**: Returns list of relevant mods to search request
+**Main Flow**:
+1.	Actor types desired request into search bar
+**Alternative Flow**:
+
+**Use Case**: Subscribe to modders
+**Actor**: User
+**Description**: The user can subscribe to a specific modders account and receives notifications/updates for that account’s activity
+**Preconditions**: User has an account
+**Postconditions**: The user will be receiving notifications for their desired modders
+**Main Flow**:
+1.	The user subscribes to the modders they desire
+**Alternative Flow**:
+None
+
+**Use Case**: Create a PlayersForge account
+**Actor**: User
+**Description**: Someone who wants to create an account and become a member of PlayersForge
+**Preconditions**: They have internet and web access
+**Postconditions**: They have created an account
+**Main Flow**:
+1.	Account logs into PlayersForge website and creates an account
+**Alternative Flow**:
+None
+
+**Use Case**: Post in community pages
+**Actor**: User
+**Description**: User can create new posts and respond to existing ones on a community forum
+**Preconditions**: Actor already has a PlayersForge account 
+**Postconditions**: Actor successfully posts to community forum
+**Main Flow**:
+1.	Access community forum section of website
+2.	Create a new post of respond to existing one
+**Alternative Flow**:
+None
+
+
+**Use Case**: Create new game categories
+**Actor**: User
+**Description**: Create new category on webpage for uploading mods to
+**Preconditions**: User is a member of the website and category doesn’t already exist
+**Postconditions**: New category is created on webpage 
+**Main Flow**:
+1.	Actor selects add new category on game categories page
+2.	Inserts name and description of new game category
+**Alternative Flow**:
+None
+
+**Use Case**: Publish mods
+**Actor**: User
+**Description**: Upload mods to PlayersForge database and posted to website 
+**Preconditions**: Actor has an account and mod to upload
+**Postconditions**: Mod is successfully uploaded to website
+**Main Flow**:
+1.	Actor logs into web application
+2.	Selects the option in the header to upload mods
+3.	Go through requirements to successfully upload mod
+**Alternative Flow**:
+None
 
 ## 7. User Stories
 - As a PlayersForge user I would like to have a dedicated part of my library that shows my favorite mods, so I can access them quickly.
