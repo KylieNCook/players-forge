@@ -77,3 +77,4 @@ preferences inside of a simple, convenient, and eye-appealing design.
 
 ## Issue Tracker 
 Screenshot link: https://prnt.sc/103bpgk
+Trello link: https://trello.com/b/js9KbTtP/issue-tracker
