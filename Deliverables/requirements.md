@@ -67,11 +67,17 @@ preferences inside of a simple, convenient, and eye-appealing design.
 Screenshot link: https://prnt.sc/103ec7c
 
 **6.2 Use case descriptions and interface sketch**
+
 **Use Case**: Search for mods
+
 **Actor**: User
+
 **Description**: User can use a search bar to find specific mods
+
 **Preconditions**: Insert request into search bar
+
 **Postconditions**: Returns list of relevant mods to search request
+
 
 **Main Flow**:
 
@@ -80,6 +86,8 @@ Screenshot link: https://prnt.sc/103ec7c
 **Alternative Flow**:
 
 None
+
+
 
 **Use Case**: Subscribe to modders
 
@@ -98,6 +106,8 @@ None
 **Alternative Flow**:
 None
 
+
+
 **Use Case**: Create a PlayersForge account
 
 **Actor**: User
@@ -114,6 +124,8 @@ None
 
 **Alternative Flow**:
 None
+
+
 
 **Use Case**: Post in community pages
 
@@ -134,6 +146,8 @@ None
 None
 
 
+
+
 **Use Case**: Create new game categories
 
 **Actor**: User
@@ -151,6 +165,8 @@ None
 
 **Alternative Flow**:
 None
+
+
 
 **Use Case**: Publish mods
 
@@ -170,6 +186,8 @@ None
 
 **Alternative Flow**:
 None
+
+
 
 ## 7. User Stories
 - As a PlayersForge user I would like to have a dedicated part of my library that shows my favorite mods, so I can access them quickly.
