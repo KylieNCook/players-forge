@@ -68,13 +68,9 @@ Screenshot link: https://prnt.sc/103ec7c
 
 **6.2 Use case descriptions and interface sketch**
 **Use Case**: Search for mods
-
 **Actor**: User
-
 **Description**: User can use a search bar to find specific mods
-
 **Preconditions**: Insert request into search bar
-
 **Postconditions**: Returns list of relevant mods to search request
 
 **Main Flow**:
