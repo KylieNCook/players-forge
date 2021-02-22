@@ -43,7 +43,6 @@ preferences inside of a simple, convenient, and eye-appealing design.
 11. Scan uploaded files for malware.
 12. Provide users with community pages and tabs where users can communicate with each other.
 
-
 ## 4. Non Functional Requirements
 1. Usability - 4 out of 5 testers should be able to navigate the service effectively.
 2. Speed - The web server should respond to and return requests within 5 seconds 95% of the time.
