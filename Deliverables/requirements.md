@@ -64,6 +64,7 @@ preferences inside of a simple, convenient, and eye-appealing design.
 ## 6. Use Cases
 **6.1 Use case diagram**
 Screenshot link: https://prnt.sc/103ec7c
+
 **6.2 Use case descriptions and interface sketch**
 
 ## 7. User Stories
