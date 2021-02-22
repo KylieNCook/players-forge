@@ -68,19 +68,31 @@ Screenshot link: https://prnt.sc/103ec7c
 
 **6.2 Use case descriptions and interface sketch**
 **Use Case**: Search for mods
+
 **Actor**: User
-**Description**: User can use a search bar to find specific mods 
+
+**Description**: User can use a search bar to find specific mods
+
 **Preconditions**: Insert request into search bar
+
 **Postconditions**: Returns list of relevant mods to search request
+
 **Main Flow**:
+
 1.	Actor types desired request into search bar
+
 **Alternative Flow**:
 
 **Use Case**: Subscribe to modders
+
 **Actor**: User
+
 **Description**: The user can subscribe to a specific modders account and receives notifications/updates for that account’s activity
+
 **Preconditions**: User has an account
+
 **Postconditions**: The user will be receiving notifications for their desired modders
+
 **Main Flow**:
 1.	The user subscribes to the modders they desire
 **Alternative Flow**:
