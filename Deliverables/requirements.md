@@ -30,16 +30,29 @@ preferences inside of a simple, convenient, and eye-appealing design.
 
 
 ## 3. Functional Requirements (features)
+1. Allow users to download published mods for free without an account.
+2. Allow users to search for mods based on key words and categories and receive results sorted by relevance and popularity.
+3. Alert users with notifications if any relevant mods or games receive updates.
+4. Allow users to create an account and become a registered member.
+5. Allow members to publish mods.
+6. Allow members to create a new game category if the game is not yet represented.
+7. Display recommendations for mods based on previous downloads.
+8. Display suggestions for mods that are rising in popularity.
+9. Display help and information pages for users on how to download or create mods for certain games.
+10. Enforce a strict, clear, and concise naming system for uploaded files.
+11. Scan uploaded files for malware.
+12. Provide users with community pages and tabs where users can communicate with each other.
+
 
 ## 4. Non Functional Requirements
-	1. Usability - 4 out of 5 testers should be able to navigate the service effectively.
-	2. Speed - The web server should respond to and return requests within 5 seconds 95% of the time.
-	3. Security - The service should be HTTPS compliant.
-	4. Security - The service should scan uploaded files for suspicious code.
-	5. Accessibility - The service should include alternate themes such as a dark theme and colorblind theme.
-	6. Performance - Verify a score of B or better from each category on [WebPageTest](https://www.webpagetest.org)
-	7. Readability - The source code of the service should be easy to understand and maintain.
-	8. Resource Constraints - Besides downloads and uploads, individual pages should not exceed 10 MB.
+1. Usability - 4 out of 5 testers should be able to navigate the service effectively.
+2. Speed - The web server should respond to and return requests within 5 seconds 95% of the time.
+3. Security - The service should be HTTPS compliant.
+4. Security - The service should scan uploaded files for suspicious code.
+5. Accessibility - The service should include alternate themes such as a dark theme and colorblind theme.
+6. Performance - Verify a score of B or better from each category on [WebPageTest](https://www.webpagetest.org)
+7. Readability - The source code of the service should be easy to understand and maintain.
+8. Resource Constraints - Besides downloads and uploads, individual pages should not exceed 10 MB.
 	
 ## 5. MVP (Minimal Viable Product)
 
