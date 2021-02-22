@@ -4,7 +4,6 @@ Group 08 – PlayersForge\
 Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad Murphy, Noah Olono
 
 ## 1. Introduction:
-
 Gaming has become a global hobby that brings many people together. From competitive gaming to limitless customization, modern games have
 become diverse in content. Likewise, many communities have come together to modify their favorite games. But, such modifications or mods as
 they are referred to in the gaming community are at times hard to find. PlayersForge is a service created to facilitate such issues, providing
@@ -60,7 +59,7 @@ He is studying education, and wants to bring education to the younger generation
 	and must be easy to use for people who are not very good with computers. (Must have)
   - Logan did not mention anything in regards to this. (Nice to have)
   - Logan believes having minimal amounts of ads would be best 
-	to not confuse the user. (Don't Care)
+	to not confuse the user. (Don't care)
 
 ### Interview 2:
 
@@ -88,7 +87,7 @@ before entering the mod's page.
 
 **Assessment: Must have / Nice to have / Don’t care:**
   - Keep track of mods being used/wanted (Must have)
-  - Feature mods by mod makers of all experiences(Nice to have)
+  - Feature mods by mod makers of all experiences (Nice to have)
   - Category list of games (Nice to have)
   - Show file size of downloads (Nice to have)
   - Chat sections (Don't care)
@@ -126,6 +125,7 @@ Apple's App Store turned into a website.
   - Excessive advertising (Don't care)
   
 ### Interview 4:
+
 **Summary:** Carson believes that a system such a PlayersForge can be useful, as long as it
 features proper communication, such as features that unite players together.  
 **Interviewer:** Fernando Diaz\
@@ -133,6 +133,7 @@ features proper communication, such as features that unite players together.
 **When:** February 7, 2021\
 **Consumer Segment:** Carson is a gamer, obsessed with the KFC game: I Love You Colonel Sanders as
 well as First Person Shooter games such as Rainbow Siege Six, and Call of Duty.\
+
 **Key Insights:**
   - It is important to have categories for games. Categories make games easier to find, and also
 	allow users to find different games in the same category that may appeal to them. 
@@ -142,7 +143,7 @@ well as First Person Shooter games such as Rainbow Siege Six, and Call of Duty.\
 **Representative Quotes:**
   - "I believe it would be a fun service if it was interactive, such as a live chat. Or just having
 	voice chats for players to engage with each other." 
-  - "Although I understand the name, I believe is a bit too long. The name feels like is just
+  - "Although I understand the name, I believe is a bit too long. The name feels like it is just
 	oriented to a single community of fantasy users. Almost as if the service was tailored for
 	people who play DnD games, rather than gamers."
 
@@ -154,18 +155,19 @@ well as First Person Shooter games such as Rainbow Siege Six, and Call of Duty.\
   - Game Billboards. (Don't care)
 
 ### Interview 5:
-**Summary:** Found lack of games supported on the steam workshop. Even games that are supported
-on the Steam Workshop don’t allow you to directly apply the mods to your game 
-easily. Not aware of any other online modding websites such as GameBanana.
+
+**Summary:** Found lack of games supported on the Steam workshop. Even games that are supported
+on the Steam Workshop don’t allow you to directly apply the mods to your game easily.
+Not aware of any other online modding websites such as GameBanana.
 **Interviewer:** Jared McNeece\
 **Interviewee:** Kolton Koltrap\
 **When:** February 13, 2021\
-**Consumer Segment:** PC Gamer\
+**Consumer Segment:** PC Gamer
 
 **Key Insights:**
   - According to Kolton, he has very little modding experience with most of it being done on the
 	Steam game Left 4 Dead 2. What he hopes for is a more simplified modding experience with ease
-	of installation. 
+	of installation.
 
 **Representative Quotes:**
   - "I barely know where to begin to install mods."
@@ -189,13 +191,13 @@ sources. He would prefer a one stop place to find and install new mods.
 **Interviewer:** Jared McNeece\
 **Interviewee:** Noah Harris\
 **When:** February 13, 2021\
-**Consumer Segment:** PC Gamer\
+**Consumer Segment:** PC Gamer
 
 **Key Insights:**
   - Noah has a pretty expansive experience with modding, with almost all of it being on the Steam
 	Workshop with games such as Skyrim and Left 4 Dead 2.
   - An issue he has with the experience is installed mods are not identifiable inside the
-    file explorer; they are downloaded with a string of numbers for their filename
+    file explorer; they are downloaded with a string of numbers for their filename.
 
 **Representative Quotes:**
   - "Simpler mod storage process"
@@ -230,7 +232,7 @@ one over others if it had a robust sorting system and better ways to identify re
   - "I would suggest a rep system for profiles so that you could filter out the garbage."
   - "I would use this over Game Banana if it were more accessible/easier to use."
 
-**Feature Assessments: Must Have /Nice to have / Don't care**
+**Feature Assessments: Must Have / Nice to have / Don't care**
   - Download and publish mods (Must have)
   - Account system for publishing mods, but not for downloading (Must have)
   - Satisfactory sorting system for displaying search results (Must have)
@@ -264,16 +266,17 @@ He used the Technic Launcher, which uses a client-server architecture, to instal
   - Reputation system for profiles (Nice to have)
 
 ### Interview 9:
-**Summary:** The service is similar to others but with the right features to make it stand out Joe
-would be willing to use it. He wants to have a place to download mods that have a secure and
-moderated environment like Steam.\
+
+**Summary:** The service is similar to others but with the right features to make it stand out
+Joe would be willing to use it. He wants to have a place to download mods that have a secure
+and moderated environment like Steam.\
 **Interviewer:** Noah Olono\
 **Interviewee:** Joe\
 **Date:** February 14, 2021\
 **Consumer Segments:** PC Gamer
 
 **Key Insights:**
-  - Joe is someone who usually downloads mods from one source which is Steam Workshop. He doesn't
+  - Joe is someone who usually downloads mods from one source which is the Steam Workshop. He doesn't
 	like to search a lot of websites and likes to keep them organized. Joe wants to have a way to
 	download mods in a simple way compared to Steam which he described as more strict and inconvenient.  
 
@@ -282,7 +285,7 @@ moderated environment like Steam.\
   - "This reminds me of Steam Workshop but with more freedom."
   - "There should be a feature that makes it stand out from the rest."
 
-**Feature Assessments: Must have /Nice to have / Don't care**
+**Feature Assessments: Must have / Nice to have / Don't care**
   - Download and publish mods (Must have)
   - Account system that enables users to interact, communicate, and publish mods (Must have)
   - Algorithm that provides new mods based on what a user frequently downloads (Must have)
@@ -290,6 +293,7 @@ moderated environment like Steam.\
   - A way to make sure each downloadable file is safe and contains no virus (Must have)
 
 ### Interview 10
+
 **Summary:** Tom is a modder who uses a similar service called Nexus Mods. Nexus is good but has
 various shortcomings, such as lack of community involvement and excessive difficulty for publishers.\
 **Interviewer:** Conrad Murphy\
