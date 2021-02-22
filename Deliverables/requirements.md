@@ -49,12 +49,12 @@ preferences inside of a simple, convenient, and eye-appealing design.
 **6.2 Use case descriptions and interface sketch**
 
 ## 7. User Stories
-- As a PlayersForge user I would like to have a dedicated part of my library that shows my favorite mods.
-- As a PlayersForge user I want to have a modular layout that allows me to customize my home page.
-- As a PlayersForge user I want to have a recommendations tabs to find mods like the ones I have downloaded.
+- As a PlayersForge user I would like to have a dedicated part of my library that shows my favorite mods, so I can access them quickly.
+- As a PlayersForge user I want to have a modular layout that allows me to customize my home page so that it looks as I want it to.
+- As a PlayersForge user I want to have a recommendations tabs to find mods like the ones I have downloaded so I can find new mods I may like.
 - As a PlayersForge user I want to have the ability to connect my account to social media accounts I have so I can share my favorite mods with my friends.
 - As a PlayersForge user I want to have the option menu to contribute to the list of modifications and allow me to recommend to friends within the service.
-- As a PlayersForge contribute I want to have an analytics menu that allows me to see the performance of the mods I have contributed. 
+- As a PlayersForge contributor I want to have an analytics menu so I can see the performance of the mods I have contributed to PlayersForge. 
 
 
 ## Issue Tracker 
