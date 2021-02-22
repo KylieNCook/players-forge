@@ -28,6 +28,9 @@ preferences inside of a simple, convenient, and eye-appealing design.
 
 ## 2. Stakeholders
 
+- Users: Users will include gamers and modders alike. They will be the ones who will upload and download the mods from our website.
+- Developers: Developers are the ones responsible for the creation of the website.
+- Communities: The ones who will be looking at our website for the potential to share and download mods for a 	specific game. 
 
 ## 3. Functional Requirements (features)
 
@@ -42,6 +45,9 @@ preferences inside of a simple, convenient, and eye-appealing design.
 	8. Resource Constraints - Besides downloads and uploads, individual pages should not exceed 10 MB.
 	
 ## 5. MVP (Minimal Viable Product)
+
+	The MVP for our project will be the website itself. The features we are going to validate are the ability to upload and download mods. The ability to create an account will also be required to upload mods. We will validate the features by using the website for ourselves by putting us in User role which is making sure we can create an account then seeing if we can download and upload mods. The site doesn’t have to have all of the aesthetic features yet but must be functional.
+
 
 ## 6. Use Cases
 **6.1 Use case diagram**
