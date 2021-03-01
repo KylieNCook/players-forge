@@ -1,7 +1,7 @@
 # D.2 Analysis 
 
 Group 08 - PlayersForge\
-Group Members: Fernando Diaz and company
+Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad Murphy, Noah Olono
 
 ## 1. System Description 
 
