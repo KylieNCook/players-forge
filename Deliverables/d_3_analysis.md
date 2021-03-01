@@ -5,6 +5,9 @@ Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad M
 
 ## 1. System Description 
 
+### Problem Statement:
+Modifications (known informally as mods) enhance games. Some improve immersion or create a different style. However, finding unique mods and installing them can be onerous. Sometimes it is difficult to find mods for specific games while at other times services such as the Steam Workshop do not support certain titles. The lack of support may be because the game is old or third party developers do not have a good relationship with Steam. Even when mods are available, the process modders have to go through can be time consuming and exhausting.
+
 ### Product Position Statement:
 For individuals who want the best mod service, PlayersForge will become the central leader of mods that will deliver innovative solutions to facilitate access to the users favorite mods so they can enjoy a seamless experience across all their games, because PlayersForge takes an innovative approach to technological practices, which considers the impact that our product will have on our customers.
 
