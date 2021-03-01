@@ -21,3 +21,4 @@ A rating system may also be used to determine the popularity of certain mods. Ea
 Some webpages will be community pages where members can make forum-style posts or participate in a live chat similar to what Discord provides. **Forums** will __contain__ a list of *subjects* and **posts**, which will have a *title*, *date published*, *member* who __published__ the post, and the *content* of the post. **Private Messages**, on the other hand, will __contain__ a list of **chats** that will each __contain__ lists of **messages** each with their own info about the *date posted*, *member* who __posted__ it, and *content* of the message.
 
 ## 2. Model 
+![UML Class Diagram](https://i.imgur.com/zTyb0nw.png)
