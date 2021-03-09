@@ -36,7 +36,7 @@ nav{
   display: inline-block;
   margin: 0 20px;
 }
-
+/*the #fff means color white*/
 .nav-links ul li a{
   color: #fff;
   text-decoration: none;
@@ -49,4 +49,103 @@ nav{
   top: 50%;
   left: -10%;
   transform: translateY(-50%);
+}
+
+#circle{
+  width: 1000px;
+  height: 1000px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+  transform: rotate(0deg);
+  transition: 1s;
+
+}
+
+.feature img{
+  width: 50px;
+  filter: brightness(0) invert(1);
+}
+
+.feature{
+  position: absolute;
+  display: flex;
+  color: #fff;
+}
+
+.feature div{
+  margin-left: 30px;
+}
+
+.feature div p{
+  margin-top: 8px;
+}
+/*This segment below controls the feeatures one through four*/
+.one{
+  top: 450px;
+  right: 50px;
+}
+
+.two{
+  top: 150px;
+  left:350px;
+  transform: rotate(-90deg);
+}
+.three{
+  bottom: 450px;
+  left:50px;
+  transform: rotate(-180deg);
+}
+
+.four{
+  bottom: 150px;
+  right: 350px;
+  transform: rotate(-270deg);
+}
+
+.wolverineAni{
+  width: 200px;
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.controls{
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.controls h3{
+  margin: 15px 0;
+  color: #fff;
+  text-align: center;
+}
+
+#upBtn{
+  width: 15px;
+  cursor: pointer;
+}
+
+#downBtn{
+  width: 15px;
+  cursor: pointer;
+  transform: rotate(180deg);
+}
+
+/*overlay hides the info befind a canvas*/
+.overlay{
+  width: 0;
+  height: 0;
+  border-top: 500px solid #fff;
+  border-right: 500px solid transparent;
+  border-bottom: 500px solid #fff;
+  border-left: 500px solid #fff;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
