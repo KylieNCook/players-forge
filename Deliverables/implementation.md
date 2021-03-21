@@ -13,6 +13,7 @@ Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad M
 ## 2. Implemented Requirements
 
 ## 3. Adopted Technologies
+Our website is currently simply a minimum viable product made with only HTML and CSS. We plan to implement a database written in Python that holds the mods, games for which those mods are made, user profiles, etc.
 
 ## 4. Learning / Training
 
@@ -25,5 +26,6 @@ Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad M
 ## 8. Look & Feel
 
 ## 9. Lessons Learned
+We learned that we can make a nice front-end design for a website using simple knowledge of HTML and CSS. For our next release, we must incorporate some back-end code for our database.
 
 ## 10. Demo
