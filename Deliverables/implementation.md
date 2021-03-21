@@ -4,16 +4,16 @@ Group 08 - PlayersForge\
 Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad Murphy, Noah Olono
 
 ## 1. Introduction
-### Paragraph description:
+### Paragraph Description:
 ### Value Proposition:
 ### Description of the main features of the software:
-   [Github](https://github.com/KylieNCook/players-forge)
+   [Github](https://github.com/KylieNCook/players-forge)\
    [Trello](https://trello.com/cs3864)
 
 ## 2. Implemented Requirements
 
 ## 3. Adopted Technologies
-Our website is currently simply a minimum viable product made with only HTML and CSS. We plan to implement a database written in Python that holds the mods, games for which those mods are made, user profiles, etc. Python is a language that we all have experience with using and is one that should be easy to learn and write.
+Our website is currently a simple minimum viable product made with only HTML and CSS. We plan to implement a database written in Python that holds the mods, games for which those mods are made, user profiles, etc. Python is a language that we all have experience with using and is one that should be easy to learn and write.
 
 ## 4. Learning / Training
 
