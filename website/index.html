@@ -12,8 +12,8 @@
   <body>
     <!-- navigation bar -->
     <div class="w3-top" style="font-size: 30px">
-        <div class="w3-bar w3-blue w3-wide w3-padding w3-card">
-            <a href="#home" class="#w3-bar-item w3-bebas w3-button w3-hover-white"><i class="fa fa-fw fa-home"></i><b>Players</b> Forge</a>
+        <div class="w3-bar w3-wide w3-padding w3-card w3-blue" style="left: 2px">
+            <a href="#home" class="#w3-bar-item w3-bebas w3-button w3-hover-white"><img src="logo.png" style="width: 100px"><b> Players</b>Forge</a>
             <i class="fa fa-fw fa-search"></i><input type="text" name="search" placeholder="Search...">
             <div class="w3-right w3-bebas">
                 <a href="#mods" class="w3-bar-item w3-button w3-hover-white"><i class="fa fa-fw fa-gamepad"></i> Mods</a>
@@ -29,71 +29,92 @@
     
         <!-- Project Section -->
         <div class="w3-container w3-padding-32" id="featured-mods">
-          <h3 class="w3-bebas w3-border-bottom w3-border-light-grey" style="padding-top: 70px; font-size: 40px">Featured Mods</h3>
+          <h3 class="w3-bebas w3-border-bottom w3-border-light-grey" style="padding-top: 70px; padding-bottom: 30px; font-size: 40px">Featured Mods</h3>
         </div>
         
-        <div class="w3-row-padding w3-padding w3-center">
+        <div class="w3-row-padding w3-padding">
             <div class="w3-third">
-                <div class="w3-container" style="margin: 30px">
-                    <div class="w3-display-container w3-border w3-border-blue w3-card-4" style="font-size: 20px">
-                        <div class="w3-display-topleft w3-blue w3-opacity-min w3-user">AnnonZero</div>
+                <div class="w3-display-container w3-card-4" style="margin: 50px; font-size: 20px">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-blue w3-user">AnnonZero</div>
                         <img src="sims-star-wars.jpg" style="width:100%; height:210px">
+                    </div>
+                    <div class="w3-display-container">
                         <p class="w3-center w3-bebas"><b class="w3-text-blue">Galaxy's Edge World</b><br>The Sims 4</p>
+                    </div>
+                    <div class="w3-display-container" style="font-size: 20px">
                         <button onclick="document.getElementById('id01').style.display='block'"
                         class="w3-button w3-bebas w3-hover-black w3-hover-text-white w3-blue w3-block w3-center-align"><i class="fa fa-fw fa-eye"></i> View</button>
-                    
+                        
                         <div id="id01" class="w3-modal">
-                            <div class="w3-modal-content w3-animate-zoom w3-border w3-border-blue" style="width: 575px; height: 590px">
-                                <div class="w3-display-container w3-display-middle" style="width: 525px; height: 515px">
-                                    <div class="w3-display-container w3-center w3-border w3-border-blue w3-card-4" style="font-size: 20px">
-                                        <span onclick="document.getElementById('id01').style.display='none'" 
-                                        class="w3-button w3-display-topright w3-blue w3-hover-black">&times;</span>
-                                        <div class="w3-display-topleft w3-blue w3-opacity-min w3-user">AnnonZero</div>
-                                        <img src="sims-star-wars.jpg" style="width:100%; height:250px">
-                                        <p class="w3-center w3-bebas"><b class="w3-text-blue">Galaxy's Edge World</b><br>The Sims 4</p>
-                                        <p class="w3-center" style="font-size: 15px; padding-">The Sims 4 is the life simulation game that gives you the power to create and control people. 
-                                        Experience the creativity, humor, escape, and the freedom to play with life in The Sims 4. 
-                                        Try the Create A Sim demo to create your own Sim!</p>
-                                        <a href="file.txt" style="text-decoration: none"download>
-                                            <i class="fa fa-fw fa-download"></i><button class="w3-button w3-bebas w3-hover-black w3-hover-text-white w3-blue w3-block w3-center-align">
-                                             Download</button>
-                                        </a>
-                                    </div>
+                            <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="width: 450px;">
+                            
+                                <div class="w3-center">
+                                    <span onclick="document.getElementById('id01').style.display='none'" 
+                                    class="w3-button w3-display-topright w3-blue w3-hover-black">&times;</span>
+                                    <div class="w3-display-topleft w3-blue w3-user">AnnonZero</div>
+                                    <img src="sims-star-wars.jpg" style="width: 100%">
                                 </div>
+                                
+                                <div class="w3-container">
+                                    <p class="w3-bebas"><b class="w3-text-blue">Galaxy's Edge World</b><br>The Sims 4</p>
+                                    <p class="w3-bebas"><i class="fa fa-fw fa-arrow-down"></i> 32 <i class="fa fa-fw fa-thumbs-up"></i> 25 <i class="fa fa-fw fa-comment"></i> 12</p>
+                                    <p class="w3-padding-bottom" style="font-size: 15px;">
+                                    The Sims 4 is the life simulation game that gives you the power to create and control people. 
+                                    Experience the creativity, humor, escape, and the freedom to play with life in The Sims 4. 
+                                    Try the Create A Sim demo to create your own Sim!</p>
+                                </div>
+                                <div class="w3-center">
+                                    <a href="file.txt" style="text-decoration: none"download>
+                                        <button class="w3-button w3-bebas w3-blue w3-hover-black w3-hover-text-white 
+                                        w3-block w3-center-align"><i class="fa fa-fw fa-download"></i>Download</button>
+                                    </a>
+                                </div>
+                            
                             </div>
                         </div>
                     </div>
                 </div>
-                
             </div>
             
             <div class="w3-third">
-                <div class="w3-container" style="margin: 30px">
-                    <div class="w3-display-container w3-border w3-border-blue w3-card-4" style="font-size: 20px">
-                        <div class="w3-display-topleft w3-blue w3-opacity-min w3-user">EmNTheFeds</div>
+                <div class="w3-display-container w3-card-4" style="margin: 50px; font-size: 20px">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-blue w3-user">EmNTheFeds</div>
                         <img src="minecraft.jpg" style="width:100%; height:210px">
-                        <p class="w3-center w3-bebas"><b class="w3-text-blue">More Horse Colors</b><br>Minecraft</p>
+                    </div>
+                    <div class="w3-display-container">
+                        <p class="w3-center w3-bebas"><b class="w3-text-blue">Sea Skin Pack</b><br>Minecraft</p>
+                    </div>
+                    <div class="w3-display-container" style="font-size: 20px">
                         <button onclick="document.getElementById('id02').style.display='block'"
                         class="w3-button w3-bebas w3-hover-black w3-hover-text-white w3-blue w3-block w3-center-align"><i class="fa fa-fw fa-eye"></i> View</button>
                         
                         <div id="id02" class="w3-modal">
-                            <div class="w3-modal-content w3-animate-zoom w3-border w3-border-blue" style="width: 575px; height: 590px">
-                                <div class="w3-display-container w3-display-middle" style="width: 525px; height: 515px">
-                                    <div class="w3-display-container w3-center w3-border w3-border-blue w3-card-4" style="font-size: 20px">
-                                        <span onclick="document.getElementById('id02').style.display='none'" 
-                                        class="w3-button w3-display-topright w3-blue w3-hover-black">&times;</span>
-                                        <div class="w3-display-topleft w3-blue w3-opacity-min w3-user">EmNTheFeds</div>
-                                        <img src="minecraft.jpg" style="width:100%; height:210px">
-                                        <p class="w3-center w3-bebas"><b class="w3-text-blue">More Horse Colors</b><br>Minecraft</p>
-                                        <p class="w3-center" style="font-size: 15px; padding-">The player takes an avatar that can destroy or create blocks, forming fantastic structures, 
-                                        creations and artwork across the various multiplayer servers in creative mode, or fending off zombies, skeletons, spiders and creepers in survival, 
-                                        indev/infdev or Minecraft Alpha game-modes. AND it has music by C418.</p>
-                                        <a href="file.txt" style="text-decoration: none"download>
-                                            <i class="fa fa-fw fa-download"></i><button class="w3-button w3-bebas w3-hover-black w3-hover-text-white w3-blue w3-block w3-center-align">
-                                             Download</button>
-                                        </a>
-                                    </div>
+                            <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="width: 450px;">
+                            
+                                <div class="w3-center">
+                                    <span onclick="document.getElementById('id02').style.display='none'" 
+                                    class="w3-button w3-display-topright w3-blue w3-hover-black">&times;</span>
+                                    <div class="w3-display-topleft w3-blue w3-user">EmNTheFeds</div>
+                                    <img src="minecraft.jpg" style="width: 100%">
                                 </div>
+                                
+                                <div class="w3-container">
+                                    <p class="w3-bebas"><b class="w3-text-blue">Sea Skin Pack</b><br>Minecraft</p>
+                                    <p class="w3-bebas"><i class="fa fa-fw fa-arrow-down"></i> 32 <i class="fa fa-fw fa-thumbs-up"></i> 25 <i class="fa fa-fw fa-comment"></i> 12</p>
+                                    <p class="w3-padding-bottom" style="font-size: 15px">
+                                    The player takes an avatar that can destroy or create blocks, forming fantastic structures, 
+                                    creations and artwork across the various multiplayer servers in creative mode, or fending off zombies, skeletons, spiders and creepers in survival, 
+                                    indev/infdev or Minecraft Alpha game-modes. AND it has music by C418.</p>
+                                </div>
+                                <div class="w3-center">
+                                    <a href="file.txt" style="text-decoration: none"download>
+                                        <button class="w3-button w3-bebas w3-blue w3-hover-black w3-hover-text-white 
+                                        w3-block w3-center-align"><i class="fa fa-fw fa-download"></i>Download</button>
+                                    </a>
+                                </div>
+                            
                             </div>
                         </div>
                     </div>
@@ -101,31 +122,43 @@
             </div>
             
             <div class="w3-third">
-                <div class="w3-container" style="margin: 30px">
-                    <div class="w3-display-container w3-border w3-border-blue w3-card-4" style="font-size: 20px">
-                        <div class="w3-display-topleft w3-blue w3-opacity-min w3-user">VVValassic</div>
+                <div class="w3-display-container w3-card-4" style="margin: 50px; font-size: 20px">
+                    <div class="w3-display-container">
+                        <div class="w3-display-topleft w3-blue w3-user">VVValassic</div>
                         <img src="kerbal.png" style="width:100%; height:210px">
+                    </div>
+                    <div class="w3-display-container">
                         <p class="w3-center w3-bebas"><b class="w3-text-blue">Rescue Parts Pack</b><br>Kerbal Space Program</p>
+                    </div>
+                    <div class="w3-display-container" style="font-size: 20px">
                         <button onclick="document.getElementById('id03').style.display='block'"
                         class="w3-button w3-bebas w3-hover-black w3-hover-text-white w3-blue w3-block w3-center-align"><i class="fa fa-fw fa-eye"></i> View</button>
                         
                         <div id="id03" class="w3-modal">
-                            <div class="w3-modal-content w3-animate-zoom w3-border w3-border-blue" style="width: 575px; height: 590px">
-                                <div class="w3-display-container w3-display-middle" style="width: 525px; height: 515px">
-                                    <div class="w3-display-container w3-center w3-border w3-border-blue w3-card-4" style="font-size: 20px">
-                                        <span onclick="document.getElementById('id03').style.display='none'" 
-                                        class="w3-button w3-display-topright w3-blue w3-hover-black">&times;</span>
-                                        <div class="w3-display-topleft w3-blue w3-opacity-min w3-user">VVValassic</div>
-                                        <img src="kerbal.png" style="width:100%; height:210px">
-                                        <p class="w3-center w3-bebas"><b class="w3-text-blue">Rescue Parts Pack</b><br>Kerbal Space Program</p>
-                                        <p class="w3-center" style="font-size: 15px; padding-">In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. 
-                                        You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) based on realistic aerodynamic and orbital physics.</p>
-                                        <a href="file.txt" style="text-decoration: none"download>
-                                            <i class="fa fa-fw fa-download"></i><button class="w3-button w3-bebas w3-hover-black w3-hover-text-white w3-blue w3-block w3-center-align">
-                                             Download</button>
-                                        </a>
-                                    </div>
+                            <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="width: 450px;">
+                            
+                                <div class="w3-center">
+                                    <span onclick="document.getElementById('id03').style.display='none'" 
+                                    class="w3-button w3-display-topright w3-blue w3-hover-black">&times;</span>
+                                    <div class="w3-display-topleft w3-blue w3-user">VVValassic</div>
+                                    <img src="kerbal.png" style="width: 100%">
                                 </div>
+                                
+                                <div class="w3-container">
+                                    <p class="w3-bebas"><b class="w3-text-blue">Rescue Parts Pack</b><br>Kerbal Space Program</p>
+                                    <p class="w3-bebas"><i class="fa fa-fw fa-arrow-down"></i> 32 <i class="fa fa-fw fa-thumbs-up"></i> 25 <i class="fa fa-fw fa-comment"></i> 12</p>
+                                    <p class="w3-padding-bottom" style="font-size: 15px">
+                                    In Kerbal Space Program, take charge of the space program for the alien race known as the Kerbals. 
+                                    You have access to an array of parts to assemble fully-functional spacecraft that flies (or doesn’t) 
+                                    based on realistic aerodynamic and orbital physics.</p>
+                                </div>
+                                <div class="w3-center">
+                                    <a href="file.txt" style="text-decoration: none"download>
+                                        <button class="w3-button w3-bebas w3-blue w3-hover-black w3-hover-text-white 
+                                        w3-block w3-center-align"><i class="fa fa-fw fa-download"></i>Download</button>
+                                    </a>
+                                </div>
+                            
                             </div>
                         </div>
                     </div>
@@ -133,7 +166,7 @@
             </div>
 
         </div>
-
+        
     </div>
   
   </body>
