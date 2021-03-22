@@ -53,7 +53,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
 ## 7. Readme File
-Readme.md
+[Readme.md](Readme.md)
 
 ## 8. Look & Feel
 The website was made with the desire to make it look pleasant, unlike many gamer oriented websites that overdo it with the color pallates. Our website was made with simplicity in mind, and to make the experience of finding your favorite mod as easy as possible. We did not want to implement the obnoxious neon color, and overcomplicated search menus.
