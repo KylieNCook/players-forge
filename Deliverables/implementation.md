@@ -6,16 +6,40 @@ Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad M
 ## 1. Introduction
 
 ### Paragraph description:
-PlayersForge, a system dedicated to bringing mods to gamers. From classic, to new games PlayersForge is a system where you can find your favorite mods. Older games, as well as games not supported by the SteamWorkshop have support in our system.
+PlayersForge, a system dedicated to bringing mods to gamers. From classic, to new games PlayersForgeis a system where you can find your favorite mods. Older games, as well as games not supported by the SteamWorkshop have support in our system.
 
 ### Value Proposition:
 Time is precious, instead of spending hours finding mods for your favorite games. PlayersForge is the place to find mods for your favorite games. Rather than spending hours searching for mods, those hours can better be spent playing them on your system.
+
 ### Description of the main features of the software:
 
 - [Github](https://github.com/KylieNCook/players-forge)
 - [Trello](https://trello.com/cs3864)
 
 ## 2. Implemented Requirements
+
+### Implemented/Prototyped Use Cases
+- Search for mods
+- Download mods
+
+### Implemented/Prototyped User Stories
+- As a PlayersForge user I want to have a modular layout that allows me to customize my home page
+	so that it looks as I want it to.
+- As a PlayersForge user I would like to have a dedicated part of my library that shows my favorite
+	mods, so I can access them quickly.
+
+### Implemented/Prototyped Features
+- Allow users to download published mods for free without an account.
+- Allow users to search for mods based on key words and categories and receive results sorted by
+	relevance and popularity.
+- Allow users to create an account and become a registered member.
+
+
+
+List in this section, the requirements (user stories, issues, or use cases) that you
+implemented for this release. We expect that you implement/prototype features you
+specified in your MVP (c.f. D.2 Requirements). Include who worked on each of the
+features.
 
 ## 3. Adopted Technologies
 
