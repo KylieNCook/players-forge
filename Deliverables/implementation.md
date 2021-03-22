@@ -29,6 +29,8 @@ group to work on together.
 Through the use of both Discord and Trello, we've been able to report back and educated the rest of the group on what our findings are. We've also created several designated channels for specific parts of the project, including: a team-member made tutorial for setting up Github desktop, important documents/links, as well as a general chat with important weekly information pinned. 
 
 ## 5. Deployment
+We are deploying our project through Amazon Web Services. By using this service we were able to get a server for our website running with a domain as well. We will be using AWS for the deployment of our website and will keep using it for the future of it as long as it remains active. 
+Website link: [Player's Forge](https://main.d1g77dxe1t9njo.amplifyapp.com/)
 
 ## 6. Licensing
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
