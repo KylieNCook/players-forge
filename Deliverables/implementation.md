@@ -20,26 +20,34 @@ Time is precious, instead of spending hours finding mods for your favorite games
 
 ### Implemented/Prototyped Use Cases
 - Search for mods
+  - Jared, Conrad, and Kylie
 - Download mods
+  - Jared, Conrad, and Kylie
 
 ### Implemented/Prototyped User Stories
 - As a PlayersForge user I want to have a modular layout that allows me to customize my home page
-	so that it looks as I want it to.
+so that it looks as I want it to.
+  - Jared, Conrad, and Kylie
 - As a PlayersForge user I would like to have a dedicated part of my library that shows my favorite
-	mods, so I can access them quickly.
+mods, so I can access them quickly.
+  - David, Noah, and Fernando
 
 ### Implemented/Prototyped Features
 - Allow users to download published mods for free without an account.
+  - David, Noah, and Fernando
 - Allow users to search for mods based on key words and categories and receive results sorted by
-	relevance and popularity.
+relevance and popularity.
+  - Jared, Conrad, and Kylie
 - Allow users to create an account and become a registered member.
+  - Jared, Conrad, and Kylie
 
-
-
-List in this section, the requirements (user stories, issues, or use cases) that you
-implemented for this release. We expect that you implement/prototype features you
-specified in your MVP (c.f. D.2 Requirements). Include who worked on each of the
-features.
+### Implemented Non-functional Requirements
+- Header & main container CSS & HTML
+  - Jared, Conrad, and Kylie
+- Featured mod CSS
+  - David, Noah, Kylie, and Fernando
+- Featured mod HTML
+  - David, Noah, and Fernando
 
 ## 3. Adopted Technologies
 
