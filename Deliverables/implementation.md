@@ -5,7 +5,10 @@ Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad M
 
 ## 1. Introduction
 ### Paragraph description:
+PlayersForge, a system dedicated to bringing mods to gamers. From classic, to new games PlayersForge is a system where you can find your favorite mods. Older games, as well as games not supported by the SteamWorkshop have support in our system.
+
 ### Value Proposition:
+Time is precious, instead of spending hours finding mods for your favorite games. PlayersForge is the place to find mods for your favorite games. Rather than spending hours searching for mods, those hours can better be spent playing them on your system.
 ### Description of the main features of the software:
    [Github](https://github.com/KylieNCook/players-forge)
    [Trello](https://trello.com/cs3864)
