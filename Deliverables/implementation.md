@@ -110,6 +110,7 @@ See also the list of [contributors](https://github.com/your/project/contributors
 
 
 ## 8. Look & Feel
+The website was made with the desire to make it look pleasant, unlike many gamer oriented websites that overdo it with the color pallates. Our website was made with simplicity in mind, and to make the experience of finding your favorite mod as easy as possible. We did not want to implement the obnoxious neon color, and overcomplicated search menus.
 
 ## 9. Lessons Learned
 We learned that we can make a nice front-end design for a website using simple knowledge of HTML and CSS. For our next release, we must incorporate some back-end code for our database.
