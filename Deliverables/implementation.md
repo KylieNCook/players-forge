@@ -5,19 +5,22 @@ Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad M
 
 ## 1. Introduction
 
-### Paragraph description:
-PlayersForge, a system dedicated to bringing mods to gamers. From classic, to new games PlayersForgeis a system where you can find your favorite mods. Older games, as well as games not supported by the SteamWorkshop have support in our system.
+### Paragraph description
+PlayersForge is a website dedicated to bringing mods to gamers. From classics to new games, PlayersForge 
+is built with ease of access in mind. Whether the game is not supported by the Steam Workshop or is 
+old, our website lets you search for your favorites or new additions easily.
 
-### Value Proposition:
-Time is precious, instead of spending hours finding mods for your favorite games. PlayersForge is the place to find mods for your favorite games. Rather than spending hours searching for mods, those hours can better be spent playing them on your system.
+### Value Proposition
+PlayersForge is the easiest way to find a mod because many mods are tailored to the needs of its users, 
+including a recommendation system.
 
-### Description of the main features of the software:
-   [Github](https://github.com/KylieNCook/players-forge)\
-   [Trello](https://trello.com/cs3864)
+### GitHub and Trello Links
+- [Github](https://github.com/KylieNCook/players-forge)\
+- [Trello](https://trello.com/cs3864)
 
 ## 2. Implemented Requirements
 
-### Implemented/Prototyped Use Cases
+### Implemented / Prototyped Use Cases
 - Search for mods
   - Jared, Conrad, and Kylie
 - Download mods
@@ -49,26 +52,38 @@ relevance and popularity.
   - David, Noah, and Fernando
 
 ## 3. Adopted Technologies
-Our website is currently a simple minimum viable product made with only HTML and CSS. We plan to implement a database written in Python that holds the mods, games for which those mods are made, user profiles, etc. Python is a language that we all have experience with using and is one that should be easy to learn and write.
+Our website is currently a simple minimum viable product made with only HTML and CSS. 
+We plan to implement a database written in Python that holds the mods, games for which those 
+mods are made, user profiles, etc. Python is a language that we all have experience with using and 
+is one that should be easy to learn and write.
 
 ## 4. Learning / Training
-The primary learning stategy employed by our team has been dividing the research and distributing it to group members in equal amounts and based off their interests. 
-With some of us having a previous foundation with web programming and development, we decided it would be best to implement the use of paired programming over screen-share to allow less experienced members to gain an understanding, while also maintaining a standardized style of code. Along with the strategy of "divide and conquer", we also have made use of meeting online during the week to establish progression/ how on track we are to meet that weeks deadline; consolidating larger tasks for the entire 
-group to work on together. 
+The primary learning strategy employed by our team has been dividing the research and distributing 
+it to group members in equal amounts and based off their interests. With some of us having a previous 
+foundation with web programming and development, we decided it would be best to implement the use of 
+paired programming over screen-share to allow less experienced members to gain an understanding, while 
+also maintaining a standardized style of code. Along with the strategy of "divide and conquer", we also 
+have made use of meeting online during the week to establish progression and how on track we are to meet that 
+week's deadline. We consolidated larger tasks for the entire group to work on together.
 
-Through the use of both Discord and Trello, we've been able to report back and educated the rest of the group on what our findings are. We've also created several designated channels for specific parts of the project, including: a team-member made tutorial for setting up Github desktop, important documents/links, as well as a general chat with important weekly information pinned. 
+Through the use of both Discord and Trello, we have been able to report back and educate the rest of the 
+group on what our findings are. We've also created several designated channels for specific parts of the 
+project, including: a team-member made tutorial for setting up Github desktop, important documents/links, 
+as well as a general chat with important weekly information pinned. 
 
 ## 5. Deployment
+We used Amazon Web Services' GitHub integration to push code to our website. See the current website [at this link](https://www.playersforge.net/).
 
 ## 6. Licensing
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-The reason we chose an MIT lincense is because it is oriented towards education and to avoid liability.
+This project is licensed under the GNU General Public License Version 3. See [the license here](https://github.com/KylieNCook/players-forge/blob/main/LICENSE) 
+for details. The reason we chose this license is because it is a generally applicable license which allows multiple
+freedoms.
 
-## 7. Readme File
-[Readme.md](Readme.md)
-[CONTRIBUTING.md](CONTRIBUTING.md)
-[LICENSE.md](LICENSE.md)
-[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+## 7. README and Other Files
+[README](https://github.com/KylieNCook/players-forge/blob/main/Deliverables/Readme.md)
+[Contributing](https://github.com/KylieNCook/players-forge/blob/main/Deliverables/CONTRIBUTING.md)
+[License](https://github.com/KylieNCook/players-forge/blob/main/LICENSE)
+[Code of Conduct](CODE_OF_CONDUCT.md)
 
 ## 8. Look & Feel
 The website was designed with minimalism in mind. Many modder oriented websites over saturate their pages with excessive colors and graphics. Our website was made to make the experience of finding mods as easy as possible.
@@ -81,4 +96,4 @@ The website was designed with minimalism in mind. Many modder oriented websites 
 We learned how to work as a team to contribute to code, even while we are all separated by distance. We also learned how to set up an AWS server and how to use GitHub to organize our development and integrate licensing. For our next release, we plan to incorporate back-end code for our database.
 
 ## 10. Demo
-Youtube Link: https://www.youtube.com/watch?v=jJzqMhcBLuE
+A link to our Video Demo can be found [here](https://www.youtube.com/watch?v=jJzqMhcBLuE).
