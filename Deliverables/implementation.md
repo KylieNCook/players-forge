@@ -11,15 +11,13 @@ PlayersForge, a system dedicated to bringing mods to gamers. From classic, to ne
 ### Value Proposition:
 Time is precious, instead of spending hours finding mods for your favorite games. PlayersForge is the place to find mods for your favorite games. Rather than spending hours searching for mods, those hours can better be spent playing them on your system.
 ### Description of the main features of the software:
-
-- [Github](https://github.com/KylieNCook/players-forge)
-- [Trello](https://trello.com/cs3864)
+   [Github](https://github.com/KylieNCook/players-forge)\
+   [Trello](https://trello.com/cs3864)
 
 ## 2. Implemented Requirements
 
 ## 3. Adopted Technologies
-
-Our website is currently simply a minimum viable product made with only HTML and CSS. We plan to implement a database written in Python that holds the mods, games for which those mods are made, user profiles, etc.
+Our website is currently a simple minimum viable product made with only HTML and CSS. We plan to implement a database written in Python that holds the mods, games for which those mods are made, user profiles, etc. Python is a language that we all have experience with using and is one that should be easy to learn and write.
 
 ## 4. Learning / Training
 The primary learning stategy employed by our team has been dividing the research and distributing it to group members in equal amounts and based off their interests. 
@@ -29,8 +27,6 @@ group to work on together.
 Through the use of both Discord and Trello, we've been able to report back and educated the rest of the group on what our findings are. We've also created several designated channels for specific parts of the project, including: a team-member made tutorial for setting up Github desktop, important documents/links, as well as a general chat with important weekly information pinned. 
 
 ## 5. Deployment
-We are deploying our project through Amazon Web Services. By using this service we were able to get a server for our website running with a domain as well. We will be using AWS for the deployment of our website and will keep using it for the future of it as long as it remains active. 
-Website link: [Player's Forge](https://main.d1g77dxe1t9njo.amplifyapp.com/)
 
 ## 6. Licensing
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
@@ -56,16 +52,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-**GNU General Public License v3.0**
-
-- [GNU License Overview](https://choosealicense.com/licenses/gpl-3.0/)
-- [PlayersForge License](https://github.com/KylieNCook/players-forge/tree/main/LICENSE.md)
-
-We chose the GNU General Public License v3.0 so that PlayersForge will be available for others to make improvements and changes to their own copies of the software. The GNU license does not allow making and distributing closed source versions, as we would like our project and separate versions of this project to be open to everyone. 
-
 ## 7. Readme File
 [Readme.md](Readme.md)
-
+[CONTRIBUTING.md](CONTRIBUTING.md)
+[LICENSE.md](LICENSE.md)
+[CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
 ## 8. Look & Feel
 The website was made with the desire to make it look pleasant, unlike many gamer oriented websites that overdo it with the color pallates. Our website was made with simplicity in mind, and to make the experience of finding your favorite mod as easy as possible. We did not want to implement the obnoxious neon color, and overcomplicated search menus.
 
