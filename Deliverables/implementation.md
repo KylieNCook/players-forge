@@ -37,8 +37,13 @@ The reason we chose an MIT lincense is because it is oriented towards education 
 [CONTRIBUTING.md](CONTRIBUTING.md)
 [LICENSE.md](LICENSE.md)
 [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)
+
 ## 8. Look & Feel
-The website was made with the desire to make it look pleasant, unlike many gamer oriented websites that overdo it with the color pallates. Our website was made with simplicity in mind, and to make the experience of finding your favorite mod as easy as possible. We did not want to implement the obnoxious neon color, and overcomplicated search menus.
+The website was designed with minimalism in mind. Many modder oriented websites over saturate their pages with excessive colors and graphics. Our website was made to make the experience of finding mods as easy as possible.
+
+### Screenshots
+![PlayersForge Homepage](https://i.imgur.com/CxlDoF1.png)
+![A featured mod's description](https://i.imgur.com/Fo79RNS.png)
 
 ## 9. Lessons Learned
 We learned how to work as a team to contribute to code, even while we are all separated by distance. We also learned how to set up an AWS server and how to use GitHub to organize our development and integrate licensing. For our next release, we plan to incorporate back-end code for our database.
