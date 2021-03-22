@@ -11,13 +11,15 @@ PlayersForge, a system dedicated to bringing mods to gamers. From classic, to ne
 ### Value Proposition:
 Time is precious, instead of spending hours finding mods for your favorite games. PlayersForge is the place to find mods for your favorite games. Rather than spending hours searching for mods, those hours can better be spent playing them on your system.
 ### Description of the main features of the software:
-   [Github](https://github.com/KylieNCook/players-forge)\
-   [Trello](https://trello.com/cs3864)
+
+- [Github](https://github.com/KylieNCook/players-forge)
+- [Trello](https://trello.com/cs3864)
 
 ## 2. Implemented Requirements
 
 ## 3. Adopted Technologies
-Our website is currently a simple minimum viable product made with only HTML and CSS. We plan to implement a database written in Python that holds the mods, games for which those mods are made, user profiles, etc. Python is a language that we all have experience with using and is one that should be easy to learn and write.
+
+Our website is currently simply a minimum viable product made with only HTML and CSS. We plan to implement a database written in Python that holds the mods, games for which those mods are made, user profiles, etc.
 
 ## 4. Learning / Training
 The primary learning stategy employed by our team has been dividing the research and distributing it to group members in equal amounts and based off their interests. 
@@ -51,6 +53,13 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
+
+**GNU General Public License v3.0**
+
+- [GNU License Overview](https://choosealicense.com/licenses/gpl-3.0/)
+- [PlayersForge License](https://github.com/KylieNCook/players-forge/tree/main/LICENSE.md)
+
+We chose the GNU General Public License v3.0 so that PlayersForge will be available for others to make improvements and changes to their own copies of the software. The GNU license does not allow making and distributing closed source versions, as we would like our project and separate versions of this project to be open to everyone. 
 
 ## 7. Readme File
 [Readme.md](Readme.md)
