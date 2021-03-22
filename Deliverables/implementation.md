@@ -6,15 +6,47 @@ Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad M
 ## 1. Introduction
 
 ### Paragraph description:
-PlayersForge, a system dedicated to bringing mods to gamers. From classic, to new games PlayersForge is a system where you can find your favorite mods. Older games, as well as games not supported by the SteamWorkshop have support in our system.
+PlayersForge, a system dedicated to bringing mods to gamers. From classic, to new games PlayersForgeis a system where you can find your favorite mods. Older games, as well as games not supported by the SteamWorkshop have support in our system.
 
 ### Value Proposition:
 Time is precious, instead of spending hours finding mods for your favorite games. PlayersForge is the place to find mods for your favorite games. Rather than spending hours searching for mods, those hours can better be spent playing them on your system.
+
 ### Description of the main features of the software:
    [Github](https://github.com/KylieNCook/players-forge)\
    [Trello](https://trello.com/cs3864)
 
 ## 2. Implemented Requirements
+
+### Implemented/Prototyped Use Cases
+- Search for mods
+  - Jared, Conrad, and Kylie
+- Download mods
+  - Jared, Conrad, and Kylie
+
+### Implemented/Prototyped User Stories
+- As a PlayersForge user I want to have a modular layout that allows me to customize my home page
+so that it looks as I want it to.
+  - Jared, Conrad, and Kylie
+- As a PlayersForge user I would like to have a dedicated part of my library that shows my favorite
+mods, so I can access them quickly.
+  - David, Noah, and Fernando
+
+### Implemented/Prototyped Features
+- Allow users to download published mods for free without an account.
+  - David, Noah, and Fernando
+- Allow users to search for mods based on key words and categories and receive results sorted by
+relevance and popularity.
+  - Jared, Conrad, and Kylie
+- Allow users to create an account and become a registered member.
+  - Jared, Conrad, and Kylie
+
+### Implemented Non-functional Requirements
+- Header & main container CSS & HTML
+  - Jared, Conrad, and Kylie
+- Featured mod CSS
+  - David, Noah, Kylie, and Fernando
+- Featured mod HTML
+  - David, Noah, and Fernando
 
 ## 3. Adopted Technologies
 Our website is currently a simple minimum viable product made with only HTML and CSS. We plan to implement a database written in Python that holds the mods, games for which those mods are made, user profiles, etc. Python is a language that we all have experience with using and is one that should be easy to learn and write.
