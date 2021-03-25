@@ -1,60 +1,55 @@
 from flask import Flask, render_template, flash, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
-from werkzeug.security import check_password_hash, generate_password_hash
-from flask_login import LoginManager, login_user, logout_user
-from forms import RegisterForm
+from forms import RegisterForm # imports the RegisterForm and its data
+from models import db, Users # imports db and Users model
+from config import app
 
-app = Flask(__name__)
-
-app.config['SECRET_KEY'] = 'hardsecretkey'
-#SqlAlchemy Database Configuration With Mysql
-app.config['SQLALCHEMY_DATABASE_URI'] = 'postgresql://playersforge:password@localhost/playersforge'
-app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-
-db = SQLAlchemy(app)
-
-class Users(db.Model):
-    id = db.Column(db.Integer, primary_key=True)
-    email = db.Column(db.String(50), nullable=False)
-    username = db.Column(db.String(25), unique=True, nullable=False)
-    password = db.Column(db.String(25), nullable=False)
-
-    def __init__(self, email, username, password):
-        self.email = email
-        self.username = username
-        self.password = password
-
-def create_app(config=None):
-    login_manager.init_app(app)
-    return app
-
+# homepage
 @app.route('/')
 def index():
     return render_template('index.html')
 
+# mods page
 @app.route('/mods')
 def mods():
     return render_template('mods.html')
 
+# forums page
 @app.route('/forums')
 def forums():
     return render_template('forums.html')
 
+# profile page (currently renders to homepage)
 @app.route('/profile')
 def profile():
-    return render_template('profile.html')
+    return render_template('index.html')
 
+# signup page
 @app.route('/signup', methods = ['GET', 'POST'])
 def signup():
+    
+    # load in RegisterForm with exisitng data to variable form
     form = RegisterForm()
 
+    # check if information submitted is valid
     if form.validate_on_submit():
+
+        # take data from form and set into variables
         email = form.email.data
         username = form.username.data
         password = form.password.data
 
+        # create a new user with data given
         new_register = Users(email=email, username=username, password=password) 
+
+        # add the user into the database
         db.session.add(new_register)
+
+        # commit the user into the database
         db.session.commit()
+
+        # redirect to the homepage
         return redirect(url_for('index'))
+    
+    # render signup page
     return render_template('signup.html', form=form)

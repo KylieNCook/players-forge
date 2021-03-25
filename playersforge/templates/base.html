@@ -2,27 +2,31 @@
 <html>
     <head>
         <meta charset="UTF-8">
+        <!-- holds a space for the titles given in other templates -->
         <title>{% block title %} {% endblock %}</title>
 
-        <!-- W3 CSS Link -->
+        <!-- W3 CSS link -->
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-        <!-- style.css Link -->
+        <!-- style.css link -->
         <link rel="stylesheet" href="{{ url_for('static',filename='styles/styles.css') }}">
-        <!-- Icon Link-->
+        <!-- icon Link-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <!-- Font Link -->
+        <!-- font link -->
         <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
-        <!-- Favicon Icon Link -->
+        <!-- favicon icon link -->
         <link rel="shortcut icon" href="{{ url_for('static', filename='styles/favicon.ico') }}">
     </head>
 
     <body>
+        <!-- css to clarify being the nav center -->
         <nav class="w3-top">
             <div class="w3-container w3-bar w3-bebas w3-wide w3-padding w3-card w3-blue" style="font-size: 30px">
+                <!-- references to the index.html and holds the website name -->
                 <a href="{{url_for('index')}}" class="w3-bar-item w3-button w3-hover-white">
                     <img src="{{ url_for('static',filename='styles/logo.png') }}" style="width: 100px">
                     Players Forge
                 </a>
+                <!-- holds and styles the other navigation buttons -->
                 <i class="fa fa-fw fa-search"></i><input style="margin-top: 5px" type="text" name="search" placeholder="Search...">
                 <div class="w3-right" style="padding-top: 3px">
                     <a href="/mods" class="w3-bar-item w3-button w3-hover-white">
@@ -41,6 +45,7 @@
             </div>
         </nav>
 
+        <!-- creates space for the body details -->
         {% block body %} 
 
         {% endblock %}
