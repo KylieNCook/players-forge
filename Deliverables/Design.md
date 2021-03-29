@@ -53,6 +53,7 @@ We designed out system architecture to have four layers: psql & flask, models & 
 
 ## 5. Design Patterns
 First Design Pattern was Singleton, specially used in the navigation class that was crunched into one class
+![Untitled Diagram](https://github.com/KylieNCook/players-forge/blob/main/Deliverables/Untitled%20Diagram.png)
 
 Second design patter is a Command Pattern given that all the info will be needed to perform an action.
 ![Sequence Diagram](https://i.imgur.com/bfbh4vJ.png)
