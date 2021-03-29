@@ -36,19 +36,19 @@ We designed out system architecture to have four layers: psql & flask, models & 
 
 1. LogInFormReader prompts the user to input their email or username and password.
 2. LogInFormReader passes the information to LogInForm.
-3. LogInForm verifies the information is correct.
+3. LogInForm verifies the information is correct with the database.
 4. LogInFormReader reads LogInForm and tells the user.
 5. The user is notified they are successfully logged in.
 
 **Alternative Flow**:
 1. The user inputs incorrect information into LogInFormReader.
 2. LogInFormReader passes the information to LogInForm.
-3. LogInForm verifies the information is incorrect.
+3. LogInForm verifies the information is incorrect with the database.
 4. LogInForm notifies the user the information is incorrect.
 5. LogInFormReader prompts the user to reenter their information.
 
 ### Sequence Diagram
-![Sequence Diagram]()
+![Sequence Diagram](https://i.imgur.com/bfbh4vJ.png)
 
 ## 5. Design Patterns
 
