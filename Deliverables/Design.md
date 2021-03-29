@@ -22,7 +22,7 @@ We designed out system architecture to have four layers: psql & flask, models & 
 ![image](https://user-images.githubusercontent.com/78190024/112666147-186c2800-8e19-11eb-8d55-531e24bb5cd7.png)
 
 ## 3. Class Diagram
-![Imgur](https://imgur.com/P4bqp5E.png)
+![Imgur](https://imgur.com/cf9KfoZ.png)
 
 ## 4. Sequence Diagram
 
