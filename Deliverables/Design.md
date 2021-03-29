@@ -26,5 +26,7 @@ We designed out system architecture to have four layers: psql & flask, models & 
 ## 4. Sequence Diagram
 
 ## 5. Design Patterns
+First Design Pattern was Singleton, specially used in the navigation class that was crunched into one class
+
 
 ## 6. Design Principles
