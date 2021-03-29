@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block title %} PlayersForge - Home {% endblock %}
+
+{% block body %} 
+
+<!-- some css for main page content -->
+<div class="w3-content w3-padding w3-center" style="max-width:1564px">
+    
+    <!-- holds the top label of the page -->
+    <div class="w3-container" id="featured-mods">
+        <h3 class="w3-bebas w3-border-bottom w3-border-light-grey" style="padding-top: 100px; padding-bottom: 30px; font-size: 40px">Profile</h3>
+    </div>
+
+    <div class="w3-container">
+        <!-- greets the logged in user with their username! -->
+        <h4 class="w3-bebas" style="font-size: 30px">Hi there, {{current_user.username}}!</h4>
+    </div>
+</div>
+
+{% endblock %}

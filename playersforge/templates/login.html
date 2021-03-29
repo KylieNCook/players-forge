@@ -12,7 +12,7 @@
         
     <!-- holds the top label of the page -->
     <div class="w3-container">
-        <h3 class="w3-bebas w3-border-bottom w3-border-light-grey" style="padding-top: 100px; padding-bottom: 30px; font-size: 40px">Sign Up</h3>
+        <h3 class="w3-bebas w3-border-bottom w3-border-light-grey" style="padding-top: 100px; padding-bottom: 30px; font-size: 40px">Log In</h3>
     </div>
 
     <!-- contains the signup box -->
@@ -20,19 +20,21 @@
         <div class="w3-container w3-bebas w3-center w3-blue w3-card-4" style="height: 450px; width: 400px;margin: auto">
             <div class="w3-container w3-bebas w3-center w3-blue" style="margin: auto">
                 <p class="w3-border-bottom w3-border-light-grey w3-border-black w3-blue" style="text-decoration: none; padding: 30px">
-                    <a href="/login" style="text-decoration: none; font-size: 25px">Want to log in instead?</a>
+                    <a href="/signup" style="text-decoration: none; font-size: 25px">Want to sign up instead?</a>
                 </p>
             </div>
-            <div class="w3-display-container w3-bebas w3-center w3-blue" style="margin: auto;">
+            <div class="w3-display-container w3-bebas w3-center w3-blue" style="margin: auto">
                 <form action="" method="post">
-                    <h3 class="w3-bebas">Sign Up</h3>
+                    <h3 class="w3-bebas">Log in</h3>
                     <!-- something that helps with keeping data -->
                     {{ form.csrf_token }}
                     <!-- assigns whatever user inputs into RegisterForm data email, username, and password -->
                     <p>Email<br>{{ form.email }}</p>
-                    <p>Username<br>{{ form.username }}</p>
                     <p>Password<br>{{ form.password }}</p>
-                    <input class="w3-button w3-white" type="submit" name="submit" value="Sign Up">
+                    <input class="w3-button w3-white" type="submit" name="submit" value="Login">
+                    {% if error %} 
+                    <p>{{error}}</p>
+                    {% endif %}
                 </form>
             </div>
         </div>

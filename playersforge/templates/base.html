@@ -29,18 +29,35 @@
                 <!-- holds and styles the other navigation buttons -->
                 <i class="fa fa-fw fa-search"></i><input style="margin-top: 5px" type="text" name="search" placeholder="Search...">
                 <div class="w3-right" style="padding-top: 3px">
-                    <a href="/mods" class="w3-bar-item w3-button w3-hover-white">
+                    <a href="{{url_for('mods')}}" class="w3-bar-item w3-button w3-hover-white">
                         <i class="fa fa-fw fa-gamepad"></i> 
                         Mods
                     </a>
-                    <a href="/forums" class="w3-bar-item w3-button w3-hover-white">
+                    <a href="{{url_for('forums')}}" class="w3-bar-item w3-button w3-hover-white">
                         <i class="fa fa-fw fa-sticky-note"></i> 
                         Forums
                     </a>
-                    <a href="/profile" class="w3-bar-item w3-button w3-hover-white">
-                        <i class="fa fa-fw fa-user"></i> 
-                        Profile
-                    </a>
+
+                    <!-- checks if a user is signed in -->
+                    <!-- if so, show 'Profile', if not, show 'Login' -->
+                    {% if current_user.is_authenticated %}
+                        <!-- direct to profile route -->
+                        <a href="{{url_for('profile')}}" class="w3-bar-item w3-button w3-hover-white">
+                            <i class="fa fa-fw fa-user"></i> 
+                            Profile
+                        </a>
+                        <!-- direct to profile route -->
+                        <a href="{{url_for('logout')}}" class="w3-bar-item w3-button w3-hover-white">
+                            <i class="fa fa-fw fa-sign-out"></i> 
+                            Logout
+                        </a>
+                    {% else %}
+                        <!-- direct to login route -->
+                        <a href="{{url_for('login')}}" class="w3-bar-item w3-button w3-hover-white">
+                            <i class="fa fa-fw fa-user"></i> 
+                            Login
+                        </a>
+                    {% endif %}
                 </div>
             </div>
         </nav>
