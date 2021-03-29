@@ -56,3 +56,9 @@ First Design Pattern was Singleton, specially used in the navigation class that 
 
 
 ## 6. Design Principles
+We used the following SOLID design principles for our project.
+Single responsibility principle: An example we used for this is the logout function. For logout() the purpose of it is calling another function which does the rest of the work. Thus it only has a single responsibility. Other examples include the index() and mods() functions which their only purpose is to return from a select form. 
+
+Open/Closed principle: An open/closed principle example is our SignUpForm and LoginForm. These forms are part of the entire login and sign up process. They are loaded in and closed upon user completion. 
+
+Dependency Inversion Principle(DIP): DIP is used in our project. In the Users class the class depends on abstractions instead of lower level modules. The model carries a user's information automatically to the database. 
