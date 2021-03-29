@@ -11,7 +11,7 @@ to become apart of the modding community; gaining access to mods such as skins, 
 The PlayersForge website is currently still in early development, with multiple features to be implemented in the near future (community forum, dedicated mod pages, user profiles).
 The website provides a sleak and simple design, allowing for users to easily navigate and locate their desired mods. The homepage currently features the most popular/most downloaded mods
 
-Project repo: [https://github.com/KylieNCook/players-forge](https://github.com/KylieNCook/players-forge)
+Project Repository: [https://github.com/KylieNCook/players-forge](https://github.com/KylieNCook/players-forge)
 
 Trello: [https://trello.com/cs3864](https://trello.com/cs3864)
 
@@ -25,6 +25,31 @@ We designed out system architecture to have four layers: psql & flask, models & 
 ![Imgur](https://imgur.com/cf9KfoZ.png)
 
 ## 4. Sequence Diagram
+
+### Use Case Description
+**Use Case**: User Login
+**Actor**: User
+**Description**: The user logs into their account.
+**Preconditions**: The user is not logged in.
+**Postconditions**: The user is successfully logged in.
+
+**Main Flow**:
+
+1. LogInFormReader prompts the user to input their email or username and password.
+2. LogInFormReader passes the information to LogInForm.
+3. LogInForm verifies the information is correct with the database.
+4. LogInFormReader reads LogInForm and tells the user.
+5. The user is notified they are successfully logged in.
+
+**Alternative Flow**:
+1. The user inputs incorrect information into LogInFormReader.
+2. LogInFormReader passes the information to LogInForm.
+3. LogInForm verifies the information is incorrect with the database.
+4. LogInForm notifies the user the information is incorrect.
+5. LogInFormReader prompts the user to reenter their information.
+
+### Sequence Diagram
+![Sequence Diagram](https://i.imgur.com/bfbh4vJ.png)
 
 ## 5. Design Patterns
 First Design Pattern was Singleton, specially used in the navigation class that was crunched into one class
