@@ -1,0 +1,39 @@
+{% extends 'base.html' %}
+
+{% block title %} PlayersForge - Home {% endblock %}
+
+{% block body %} 
+
+<!-- some css for main page content -->
+<div class="w3-content w3-padding w3-center" style="max-width:1564px">
+        
+    <!-- holds the top label of the page -->
+    <div class="w3-container" id="featured-mods">
+        <h3 class="w3-bebas w3-border-bottom w3-border-light-grey" style="padding-top: 100px; padding-bottom: 30px; font-size: 40px">Upload</h3>
+    </div>
+
+    <!-- contains the upload box -->
+    <div class="w3-container" style="padding-top: 50px">
+        <div class="w3-display-container w3-bebas w3-center w3-blue w3-card-4" style="height: 450px; width: 400px;margin: auto">
+            <div class="w3-container w3-bebas w3-center w3-blue" style="margin: auto">
+                <p class="w3-border-bottom w3-border-light-grey w3-border-black w3-blue" style="font-size: 25px; text-decoration: none; padding: 10px">
+                    Upload
+                </p>
+            </div>
+            <div class="w3-display-container w3-bebas w3-center w3-blue" style="margin: auto">
+                <form style="padding-bottom: 20px;" action="" method="post" enctype="multipart/form-data">
+                    <!-- something that helps with keeping data -->
+                    {{ form.csrf_token }}
+                    <!-- assigns whatever user inputs into UploadForm data -->
+                    <p>Name<br>{{ form.name }}</p>
+                    <p>Description<br>{{ form.description }}</p>
+                    <p>File<br><input style="padding-left: 55px" type="file" name="inputFile"></p>
+                    <p>Image<br><input style="padding-left: 55px" type="file" name="imageFile"></p>
+                    <input class="w3-button w3-white" type="submit" name="submit" value="Submit">
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

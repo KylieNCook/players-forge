@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="UTF-8">
         <!-- holds a space for the titles given in other templates -->
@@ -23,18 +23,18 @@
             <div class="w3-container w3-bar w3-bebas w3-wide w3-padding w3-card w3-blue" style="font-size: 30px">
                 <!-- references to the index.html and holds the website name -->
                 <a href="{{url_for('index')}}" class="w3-bar-item w3-button w3-hover-white">
-                    <img src="{{ url_for('static',filename='styles/logo.png') }}" style="width: 100px">
-                    PlayersForge
+                    <img src="{{ url_for('static',filename='styles/logo.png') }}" alt="Playersforge Logo" style="width: 100px">
+                    <b>Players</b>Forge
                 </a>
                 <!-- holds and styles the other navigation buttons -->
-                <i class="fa fa-fw fa-search"></i><input style="margin-top: 5px" type="text" name="search" placeholder="Search...">
+                <em class="fa fa-fw fa-search"></em><input style="margin-top: 10px" type="text" name="search" placeholder="Search...">
                 <div class="w3-right" style="padding-top: 3px">
                     <a href="{{url_for('mods')}}" class="w3-bar-item w3-button w3-hover-white">
-                        <i class="fa fa-fw fa-gamepad"></i> 
+                        <em class="fa fa-fw fa-gamepad"></em> 
                         Mods
                     </a>
                     <a href="{{url_for('forums')}}" class="w3-bar-item w3-button w3-hover-white">
-                        <i class="fa fa-fw fa-sticky-note"></i> 
+                        <em class="fa fa-fw fa-sticky-note"></em> 
                         Forums
                     </a>
 
@@ -43,18 +43,18 @@
                     {% if current_user.is_authenticated %}
                         <!-- direct to profile route -->
                         <a href="{{url_for('profile')}}" class="w3-bar-item w3-button w3-hover-white">
-                            <i class="fa fa-fw fa-user"></i> 
+                            <em class="fa fa-fw fa-user"></em> 
                             Profile
                         </a>
                         <!-- direct to profile route -->
                         <a href="{{url_for('logout')}}" class="w3-bar-item w3-button w3-hover-white">
-                            <i class="fa fa-fw fa-sign-out"></i> 
+                            <em class="fa fa-fw fa-sign-out"></em> 
                             Logout
                         </a>
                     {% else %}
                         <!-- direct to login route -->
                         <a href="{{url_for('login')}}" class="w3-bar-item w3-button w3-hover-white">
-                            <i class="fa fa-fw fa-user"></i> 
+                            <em class="fa fa-fw fa-user"></em> 
                             Login
                         </a>
                     {% endif %}
