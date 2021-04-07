@@ -27,4 +27,13 @@ class Users(UserMixin, db.Model):
     def load_user(user_id):
         return Users.query.get(int(user_id))
 
+class Mods(db.Model):
+    id = db.Column(db.Integer, primary_key=True)
+    user_id = db.Column(db.Integer, nullable=False)
+    name = db.Column(db.String(50), nullable=False)
+    description = db.Column(db.Text, nullable=False)
+    data = db.Column(db.LargeBinary, nullable=False)
+    image = db.Column(db.LargeBinary, nullable=True)
+
+
     

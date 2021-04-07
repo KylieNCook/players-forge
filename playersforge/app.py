@@ -1,7 +1,7 @@
 from flask import Flask, render_template, flash, request, redirect, url_for
 from flask_sqlalchemy import SQLAlchemy
-from forms import SignUpForm, LoginForm # imports RegisterFrom and LoginForm
-from models import db, Users # imports db, Users models
+from forms import SignUpForm, LoginForm, UploadForm # imports RegisterFrom, LoginForm, and UploadForm
+from models import db, Users, Mods # imports db, Users models
 from config import app
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, logout_user, login_user, login_required, current_user
@@ -73,7 +73,7 @@ def login():
 @app.route('/signup', methods = ['GET', 'POST'])
 def signup():
     
-    # load in RegisterForm with exisitng data to variable form
+    # load in SignUpForm with exisitng data to variable form
     form = SignUpForm()
 
     # check if information submitted is valid
@@ -101,3 +101,30 @@ def signup():
     
     # render signup page
     return render_template('signup.html', form=form)
+
+# mod uploading page (testing)
+@app.route('/upload', methods=['GET','POST'])
+@login_required
+def upload():
+    
+    # load in UploadForm with existing data to variable form
+    form = UploadForm()
+
+    # check if information submitted is valid
+    if form.validate_on_submit():
+
+        # take data from form/file and set into variables
+        name = form.name.data
+        description = form.description.data
+        file = request.files['inputFile']
+        image = request.files['imageFile']
+
+        # create a new mod with the given data and add it to the database
+        new_mod = Mods(user_id=current_user.id, name=name, description=description, data=file.read(), image=image.read())
+        db.session.add(new_mod)
+        db.session.commit()
+
+        return file.filename
+
+    return render_template('upload.html', form=form)
+

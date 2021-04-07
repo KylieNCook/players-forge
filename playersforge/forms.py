@@ -1,5 +1,5 @@
 from flask_wtf import FlaskForm
-from wtforms import StringField, PasswordField, SubmitField
+from wtforms import StringField, PasswordField, SubmitField, TextAreaField
 from wtforms.validators import DataRequired
 
 # form used in signup.html to gather information given by user
@@ -14,4 +14,7 @@ class SignUpForm(FlaskForm):
 class LoginForm(FlaskForm):
     email = StringField("Email", validators=[DataRequired()])
     password = PasswordField("Password", validators=[DataRequired()])
-    
+
+class UploadForm(FlaskForm):
+    name = StringField("Mod Name", validators=[DataRequired()])
+    description = TextAreaField("Description", validators=[DataRequired()])
