@@ -11,6 +11,51 @@
     <div class="w3-container" id="featured-mods">
         <h3 class="w3-bebas w3-border-bottom w3-border-light-grey" style="padding-top: 100px; padding-bottom: 30px; font-size: 40px">Mods</h3>
     </div>
+    {%for mod in all_mods%}
+    <div class="w3-col" style="padding-bottom: 70px; padding-top: 50px">
+        <div class="w3-display-container w3-card-4" style="margin-left: 540px; margin-right: 540px; font-size: 20px">
+            <div class="w3-display-container">
+                <div class="w3-display-topleft w3-blue w3-user">
+                    {{mod.username}}
+                </div>
+                <img src="{{ url_for('static', filename=mod.image) }}" style="width:100%; height:210px">
+            </div>
+            <div class="w3-display-container" style="font-size: 20px">
+                <p class="w3-center w3-bebas"><b class="w3-text-blue">{{mod.name}}</b><br>{{mod.game}}</p>
+            </div>
+            <div class="w3-display-container" style="font-size: 20px">
+                <button onclick="document.getElementById('{{mod.id}}').style.display='block'"
+                class="w3-button w3-bebas w3-hover-black w3-hover-text-white w3-blue w3-block w3-center-align"><i class="fa fa-fw fa-eye"></i> View</button>
+                
+                <div id={{mod.id}} class="w3-modal">
+                    <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="width: 450px;">
+                    
+                        <div class="w3-center">
+                            <span onclick="document.getElementById('{{mod.id}}').style.display='none'" 
+                            class="w3-button w3-display-topright w3-blue w3-hover-black">&times;</span>
+                            <div class="w3-display-topleft w3-blue w3-user">{{mod.username}}</div>
+                            <img src="{{ url_for('static', filename=mod.image) }}" style="width: 100%">
+                        </div>
+                        
+                        <div class="w3-container">
+                            <p class="w3-bebas"><b class="w3-text-blue">{{mod.name}}</b><br>{{mod.game}}</p>
+                            <p class="w3-bebas"><i class="fa fa-fw fa-arrow-down"></i> 32 <i class="fa fa-fw fa-thumbs-up"></i> 25 <i class="fa fa-fw fa-comment"></i> 12</p>
+                            <p class="w3-padding-bottom" style="font-size: 15px;">
+                            {{mod.description}}</p>
+                        </div>
+                        <div class="w3-center">
+                            <a href="{{ url_for('static', filename=mod.data) }}" style="text-decoration: none"download>
+                                <button class="w3-button w3-bebas w3-blue w3-hover-black w3-hover-text-white 
+                                w3-block w3-center-align"><i class="fa fa-fw fa-download"></i>Download</button>
+                            </a>
+                        </div>
+                    
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    {%endfor%}
 </div>
 
 {% endblock %}

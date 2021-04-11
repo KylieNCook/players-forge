@@ -5,7 +5,7 @@ from models import db, Users, Mods # imports db, Users models
 from config import app
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, logout_user, login_user, login_required, current_user
-import os
+import os, random
 
 # homepage
 @app.route('/')
@@ -13,15 +13,34 @@ def index():
     mods = Mods.query.all()
     featured = []
 
-    for mod in mods:
-        featured.append(mod)
+    if len(mods) != 0:
+
+        mod = random.choice(mods)
+        count = 0
+
+        while len(featured) < 3:
+
+            if len(mods) == len(featured):
+                break
+
+            while mod in featured:
+                mod = random.choice(mods)
+
+            featured.append(mod)
 
     return render_template('index.html', featured=featured)
 
 # mods page
 @app.route('/mods')
 def mods():
-    return render_template('mods.html')
+    mods = Mods.query.all()
+    all_mods = []
+
+    if len(mods) != 0:
+        for mod in mods:
+            all_mods.append(mod)
+
+    return render_template('mods.html', all_mods=all_mods)
 
 # forums page
 @app.route('/forums')
