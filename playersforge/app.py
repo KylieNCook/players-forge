@@ -1,4 +1,4 @@
-from flask import Flask, render_template, flash, request, redirect, url_for
+from flask import Flask, render_template, flash, request, redirect, url_for, Response
 from flask_sqlalchemy import SQLAlchemy
 from forms import SignUpForm, LoginForm, UploadForm # imports RegisterFrom, LoginForm, and UploadForm
 from models import db, Users, Mods # imports db, Users models
@@ -9,7 +9,13 @@ from flask_login import LoginManager, UserMixin, logout_user, login_user, login_
 # homepage
 @app.route('/')
 def index():
-    return render_template('index.html')
+    mods = Mods.query.all()
+    featured = []
+
+    for mod in mods:
+        featured.append(mod)
+
+    return render_template('index.html', featured=featured)
 
 # mods page
 @app.route('/mods')
@@ -116,15 +122,16 @@ def upload():
         # take data from form/file and set into variables
         name = form.name.data
         description = form.description.data
+        game = form.game.data
         file = request.files['inputFile']
         image = request.files['imageFile']
 
         # create a new mod with the given data and add it to the database
-        new_mod = Mods(user_id=current_user.id, name=name, description=description, data=file.read(), image=image.read())
+        new_mod = Mods(user_id=current_user.id, username=current_user.username, game=game, name=name, description=description, data=file.read(), image=image.read())
         db.session.add(new_mod)
         db.session.commit()
 
-        return file.filename
+        return Response(image)
 
     return render_template('upload.html', form=form)
 
