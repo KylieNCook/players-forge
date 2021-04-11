@@ -18,3 +18,4 @@ class LoginForm(FlaskForm):
 class UploadForm(FlaskForm):
     name = StringField("Mod Name", validators=[DataRequired()])
     description = TextAreaField("Description", validators=[DataRequired()])
+    game = StringField("Game", validators=[DataRequired()])

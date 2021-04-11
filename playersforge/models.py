@@ -30,6 +30,8 @@ class Users(UserMixin, db.Model):
 class Mods(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     user_id = db.Column(db.Integer, nullable=False)
+    username = db.Column(db.String(25), nullable=False)
+    game = db.Column(db.String(50), nullable=False)
     name = db.Column(db.String(50), nullable=False)
     description = db.Column(db.Text, nullable=False)
     data = db.Column(db.Text, nullable=False)
