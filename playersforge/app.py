@@ -5,6 +5,7 @@ from models import db, Users, Mods # imports db, Users models
 from config import app
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, logout_user, login_user, login_required, current_user
+import os
 
 # homepage
 @app.route('/')
@@ -27,8 +28,15 @@ def forums():
 @login_required
 def profile():
 
+    mods = Mods.query.all()
+    user_mods = []
+
+    for mod in mods:
+        if mod.username == current_user.username:
+            user_mods.append(mod)
+
     # renders sign up page
-    return render_template('profile.html')
+    return render_template('profile.html', user_mods=user_mods)
 
 # logout page
 @app.route('/logout')
@@ -120,11 +128,17 @@ def upload():
         image = request.files['imageFile']
 
         # create a new mod with the given data and add it to the database
-        new_mod = Mods(user_id=current_user.id, name=name, description=description, data=file.read(), image=image.read())
+        new_mod = Mods(user_id=current_user.id, username=current_user.username, 
+        game=game, name=name, description=description, data= 'uploads/' + file.filename, image='uploads/' + image.filename)
+
         db.session.add(new_mod)
+
         db.session.commit()
 
-        return file.filename
+        file.save(os.path.join("static/uploads", file.filename))
+        image.save(os.path.join("static/uploads", image.filename))
+
+        return render_template('upload.html', form=form)
 
     return render_template('upload.html', form=form)
 

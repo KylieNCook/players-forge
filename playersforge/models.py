@@ -32,8 +32,8 @@ class Mods(db.Model):
     user_id = db.Column(db.Integer, nullable=False)
     name = db.Column(db.String(50), nullable=False)
     description = db.Column(db.Text, nullable=False)
-    data = db.Column(db.LargeBinary, nullable=False)
-    image = db.Column(db.LargeBinary, nullable=True)
+    data = db.Column(db.Text, nullable=False)
+    image = db.Column(db.Text, nullable=True)
 
 
     
