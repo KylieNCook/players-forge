@@ -17,8 +17,13 @@
         <h4 class="w3-bebas" style="font-size: 30px">Hi there, {{current_user.username}}!</h4>
     </div>
 
+    <div class="w3-container">
+        <a href="/upload" class="w3-bebas w3-text-blue" style="text-decoration: none">Upload A Mod |</a>
+        <a class="w3-bebas w3-text-blue" style="text-decoration: none">Edit Profile</a>
+    </div>
+
     {%for mod in user_mods%}
-    <div class="w3-col w3-padding">
+    <div class="w3-col" style="padding-bottom: 70px; padding-top: 50px">
         <div class="w3-display-container w3-card-4" style="margin-left: 540px; margin-right: 540px; font-size: 20px">
             <div class="w3-display-container">
                 <div class="w3-display-topleft w3-blue w3-user">
@@ -50,7 +55,7 @@
                             {{mod.description}}</p>
                         </div>
                         <div class="w3-center">
-                            <a href="{{mod.data}}" style="text-decoration: none"download>
+                            <a href="{{ url_for('static', filename=mod.data) }}" style="text-decoration: none"download>
                                 <button class="w3-button w3-bebas w3-blue w3-hover-black w3-hover-text-white 
                                 w3-block w3-center-align"><i class="fa fa-fw fa-download"></i>Download</button>
                             </a>

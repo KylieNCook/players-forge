@@ -13,37 +13,38 @@
     </div>
 
     <div class="w3-row-padding w3-padding">
+        {%for mod in featured%}
         <div class="w3-third">
             <div class="w3-display-container w3-card-4" style="margin: 50px; font-size: 20px">
                 <div class="w3-display-container">
-                    <div class="w3-display-topleft w3-blue w3-user">{{featured[0].username}}</div>
-                    <img src="{{url_for('static', filename=featured[0].image)}}" style="width:100%; height:210px">
+                    <div class="w3-display-topleft w3-blue w3-user">{{mod.username}}</div>
+                    <img src="{{url_for('static', filename=mod.image)}}" style="width:100%; height:210px">
                 </div>
                 <div class="w3-display-container">
-                    <p class="w3-center w3-bebas"><b class="w3-text-blue">{{featured[0].name}}</b><br>{{featured[0].game}}</p>
+                    <p class="w3-center w3-bebas"><b class="w3-text-blue">{{mod.name}}</b><br>{{mod.game}}</p>
                 </div>
                 <div class="w3-display-container" style="font-size: 20px">
-                    <button onclick="document.getElementById('id01').style.display='block'"
+                    <button onclick="document.getElementById('{{mod.id}}').style.display='block'"
                     class="w3-button w3-bebas w3-hover-black w3-hover-text-white w3-blue w3-block w3-center-align"><i class="fa fa-fw fa-eye"></i> View</button>
                     
-                    <div id="id01" class="w3-modal">
+                    <div id={{mod.id}} class="w3-modal">
                         <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="width: 450px;">
                         
                             <div class="w3-center">
-                                <span onclick="document.getElementById('id01').style.display='none'" 
+                                <span onclick="document.getElementById('{{mod.id}}').style.display='none'" 
                                 class="w3-button w3-display-topright w3-blue w3-hover-black">&times;</span>
-                                <div class="w3-display-topleft w3-blue w3-user">{{featured[0].username}}</div>
-                                <img src="{{url_for('static', filename=featured[0].image)}}" style="width: 100%">
+                                <div class="w3-display-topleft w3-blue w3-user">{{mod.username}}</div>
+                                <img src="{{url_for('static', filename=mod.image)}}" style="width: 100%">
                             </div>
                             
                             <div class="w3-container">
-                                <p class="w3-bebas"><b class="w3-text-blue">{{featured[0].name}}</b><br>{{featured[0].game}}</p>
+                                <p class="w3-bebas"><b class="w3-text-blue">{{mod.name}}</b><br>{{mod.game}}</p>
                                 <p class="w3-bebas"><i class="fa fa-fw fa-arrow-down"></i> 32 <i class="fa fa-fw fa-thumbs-up"></i> 25 <i class="fa fa-fw fa-comment"></i> 12</p>
                                 <p class="w3-padding-bottom" style="font-size: 15px;">
-                                {{featured[0].description}}</p>
+                                {{mod.description}}</p>
                             </div>
                             <div class="w3-center">
-                                <a href="{{url_for('static', filename=featured[0].data)}}" style="text-decoration: none"download>
+                                <a href="{{url_for('static', filename=mod.data)}}" style="text-decoration: none"download>
                                     <button class="w3-button w3-bebas w3-blue w3-hover-black w3-hover-text-white 
                                     w3-block w3-center-align"><i class="fa fa-fw fa-download"></i>Download</button>
                                 </a>
@@ -54,6 +55,7 @@
                 </div>
             </div>
         </div>
+        {%endfor%}
     </div>
 </div>
 

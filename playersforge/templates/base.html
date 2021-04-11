@@ -20,7 +20,7 @@
     <body>
         <!-- css to clarify being the nav center -->
         <nav class="w3-top">
-            <div class="w3-container w3-bar w3-bebas w3-wide w3-padding w3-card w3-blue" style="font-size: 30px">
+            <div class="w3-container w3-bar w3-bebas w3-wide w3-padding w3-card w3-blue" style="font-size: 30px;">
                 <!-- references to the index.html and holds the website name -->
                 <a href="{{url_for('index')}}" class="w3-bar-item w3-button w3-hover-white">
                     <img src="{{ url_for('static',filename='styles/logo.png') }}" alt="Playersforge Logo" style="width: 100px">
@@ -66,5 +66,31 @@
         {% block body %} 
 
         {% endblock %}
+
+        <div class="w3-container w3-bar w3-blue w3-bebas w3-display-bottom">
+            <div class="w3-row-padding" style="padding-top: 20px">
+                <div class="w3-third" style="padding-left: 260px">
+                    <img src="{{ url_for('static',filename='styles/logo.png') }}" alt="Playersforge Logo" style="width: 100px; padding-top: 30px; padding-left: 30px">
+                </div>
+                <div class="w3-third" style="padding-left: 100px">
+                    <ul>
+                        <p>Support</p>
+                        <li>Contact Us</li>
+                        <li>FAQ</li>
+                        <li>Learn More</li>
+                    </ul>
+                </div>
+                <div class="w3-third" >
+                    <ul>
+                        <p>PlayersForge</p>
+                        <li>About PlayersForge</li>
+                        <li>Careers</li>
+                        <li>Newsletter Sign Up</li>
+                        <li>Company Info</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
     </body>
 </html>
