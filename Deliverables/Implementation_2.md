@@ -23,9 +23,41 @@ Link to GitHub: [https://github.com/KylieNCook/players-forge](https://github.com
 Link to Trello: [https://trello.com/b/ryqaAZtg/d6-implementation-2](https://trello.com/b/ryqaAZtg/d6-implementation-2)
 
 ## 2. Implemented Requirements
+### Users can make an account on the website and have the ability to login/logout
+**Implemented by:** Kylie Cook
+**Reviewed and approved by:** Fernando Diaz
+**Trello Card:** [https://trello.com/c/AJNVQrWg](https://trello.com/c/AJNVQrWg)
+**GitHub Pull Request(s):** [https://github.com/KylieNCook/players-forge/tree/KylieNCook-branch-25](https://github.com/KylieNCook/players-forge/tree/KylieNCook-branch-25)
+**Screenshot(s):**
+**Sign Up Page**
+![Sign Up Page](https://i.imgur.com/ajEBC6f.png)
+
+### Users can upload mods and have them shown in the featured/front page as well as the mods page
+**Implemented by:** Fernando Diaz, Conrad Murphy, Kylie Cook
+**Reviewed and approved by:** Kylie Cook, Jared McNeece
+**Trello Card:** [https://trello.com/c/toiT0cQD](https://trello.com/c/toiT0cQD)
+**GitHub Pull Request(s):** [https://github.com/KylieNCook/players-forge/tree/Group-Branch-3](https://github.com/KylieNCook/players-forge/tree/Group-Branch-3)
+[https://github.com/KylieNCook/players-forge/tree/KylieNCook-branch-24](https://github.com/KylieNCook/players-forge/tree/KylieNCook-branch-24)
+**Screenshot(s):**
+**Featured Mods Page**
+![Featured Mods Page](https://i.imgur.com/zaeg2Js.png)
+**Mods Page**
+![Mods Page](https://i.imgur.com/uWSxo7M.png)
+**Upload Page**
+![Upload Page](https://i.imgur.com/glyN06h.png)
+
+### Users have a profile page that shows mods created by them
+**Implemented by:** Noah Olono, Jared McNeece, David Hermann
+**Reviewed and approved by:** Kylie Cook
+**Trello Card:** [https://trello.com/c/idPMOEPz](https://trello.com/c/idPMOEPz)
+**GitHub Pull Request(s):** [https://github.com/KylieNCook/players-forge/tree/Group-Branch-3](https://github.com/KylieNCook/players-forge/tree/Group-Branch-3)
+**Screenshot(s):**
+**Profile Page**
+![Profile Page](https://i.imgur.com/ryy2Ewg.png)
 
 ## 3. Demo
 https://youtu.be/54bDXSnvu40
+
 ## 4. Code Quality
 
 In order for the team to manage high quality code, we relied on:
