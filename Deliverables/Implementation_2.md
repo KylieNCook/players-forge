@@ -8,7 +8,7 @@ Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad M
 ## 2. Implemented Requirements
 
 ## 3. Demo
-
+https://youtu.be/54bDXSnvu40
 ## 4. Code Quality
 
 In order for the team to manage high quality code, we relied on:
@@ -31,3 +31,9 @@ In order for the team to manage high quality code, we relied on:
     and then switched those roles with another pair to review the code and come up with new ideas as needed.
 
 ## 5. Lessons Learned
+- Learning to pair program online is difficult; as a team, we struggled with meeting up and 
+collaborating due to having to abide by the regulations set for the pandemic. Though attempts were made with the use of screen sharing over Discord/Zoom, we found it too much of a hindrance than if we were working together in person. 
+
+- Developing for a client-facing product can be frustrating. Our webpage functions rely heavily on the backend logic we have implemented. Unfortunately because of the backend, the website is required to be ran on a local machine in order to properly interact with it. This was the best way for us to implement the uploading and downloading of specific files with the time it takes to learn backend development and have it completed by the due date
+
+- Creating an estimate for the development time of user stories is nearly impossible, especially when working with a new paradigm and backend. User stories that we were excited to implement such as an active community discussion board were simply too much of a task for the time allotted
