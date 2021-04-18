@@ -2,7 +2,7 @@ from flask import Flask, render_template, flash, request, redirect, url_for, Res
 from flask_sqlalchemy import SQLAlchemy
 from forms import SignUpForm, LoginForm, UploadForm # imports RegisterFrom, LoginForm, and UploadForm
 from models import db, Users, Mods # imports db, Users models
-from config import app
+from config import app, csrf
 from werkzeug.security import generate_password_hash, check_password_hash
 from flask_login import LoginManager, UserMixin, logout_user, login_user, login_required, current_user
 import os, random
@@ -18,10 +18,7 @@ def index():
         mod = random.choice(mods)
         count = 0
 
-        while len(featured) < 3:
-
-            if len(mods) == len(featured):
-                break
+        while len(featured) < 3 and len(mods) != len(featured):
 
             while mod in featured:
                 mod = random.choice(mods)
@@ -168,4 +165,5 @@ def upload():
         return render_template('upload.html', form=form)
 
     return render_template('upload.html', form=form)
+
 

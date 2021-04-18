@@ -13,6 +13,9 @@ psycopg2 = "*"
 python-dotenv = "*"
 flask-login = "*"
 sqlalchemy = "*"
+flask-testing = "*"
+coverage = "*"
+pytest = "*"
 csrf = "*"
 
 [dev-packages]
