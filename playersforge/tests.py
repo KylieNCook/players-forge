@@ -129,11 +129,57 @@ class BasicTests(unittest.TestCase):
         response = tester.post(
             '/upload',
             data=dict(name="name", description="description", game="game",
-            inputFile=(BytesIO(b'my file contents'), 'test.txt'), imageFile=(BytesIO(b'Some shit'), 'image.img')),
+            inputFile=(BytesIO(b'my file contents'), 'test.txt'), imageFile=(BytesIO(b'Some stuff'), 'image.img')),
             follow_redirects = True
         )
         self.assertEqual(response.status_code, 200)
         print("\n SUCCESSFUL MOD UPLOAD TEST ")
+
+    def test_integration_signup(self):
+        tester = app.test_client(self)
+        response = tester.post(
+            '/signup',
+            data=dict(email="someone", username="someone", password="someone"),
+            follow_redirects=True
+        )
+        self.assertIn(b'Hi there, someone!', response.data)
+        print("\n SUCCESSFUL INTEGRATION TEST SIGN UP ")
+
+        response = tester.post(
+            '/upload',
+            data=dict(name="aname", description="adescription", game="agame",
+            inputFile=(BytesIO(b'my file contents'), 'test.txt'), imageFile=(BytesIO(b'Some stuff'), 'image.img')),
+            follow_redirects = True
+        )
+        self.assertEqual(response.status_code, 200)
+        print("\n SUCCESSFUL INTEGRATION TEST MOD UPLOAD ")
+
+        repsonse = tester.get('/logout', content_type='html/text', follow_redirects=True)
+        self.assertEqual(response.status_code, 200)
+        print("\n SUCCESSFUL INTEGRATION TEST LOGOUT ")
+
+    def test_integration_login(self):
+        tester = app.test_client(self)
+        response = tester.post(
+            '/login',
+            data=dict(email="joe@gmail.com", password="joe"),
+            follow_redirects=True
+        )
+        self.assertIn(b'Hi there, joe!', response.data)
+        print("\n SUCCESSFUL INTEGRATION TEST LOGIN ")
+
+        response = tester.post(
+            '/upload',
+            data=dict(name="aname", description="adescription", game="agame",
+            inputFile=(BytesIO(b'my file contents'), 'test.txt'), imageFile=(BytesIO(b'Some stuff'), 'image.img')),
+            follow_redirects = True
+        )
+        self.assertEqual(response.status_code, 200)
+        print("\n SUCCESSFUL INTEGRATION TEST MOD UPLOAD ")
+
+        repsonse = tester.get('/logout', content_type='html/text', follow_redirects=True)
+        self.assertEqual(response.status_code, 200)
+        print("\n SUCCESSFUL INTEGRATION TEST LOGOUT ")
 
 
 if __name__ == '__main__':
