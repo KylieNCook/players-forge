@@ -137,6 +137,11 @@ class BasicTests(unittest.TestCase):
 
     def test_integration_signup(self):
         tester = app.test_client(self)
+
+        response = tester.get('/signup', content_type='html/text', follow_redirects=True)
+        self.assertEqual(response.status_code, 200)
+        print("\n SUCCESSFUL INTEGRATION TEST SIGN UP REDIRECT ")
+
         response = tester.post(
             '/signup',
             data=dict(email="someone", username="someone", password="someone"),
@@ -144,6 +149,10 @@ class BasicTests(unittest.TestCase):
         )
         self.assertIn(b'Hi there, someone!', response.data)
         print("\n SUCCESSFUL INTEGRATION TEST SIGN UP ")
+
+        repsonse = tester.get('/upload', content_type='html/text', follow_redirects=True)
+        self.assertEqual(response.status_code, 200)
+        print("\n SUCCESSFUL INTEGRATION TEST UPLOAD REDIRECT ")
 
         response = tester.post(
             '/upload',
@@ -160,6 +169,27 @@ class BasicTests(unittest.TestCase):
 
     def test_integration_login(self):
         tester = app.test_client(self)
+
+        response = tester.get('/', content_type='html/text', follow_redirects=True)
+        self.assertEqual(response.status_code, 200)
+        print("\n SUCCESSFUL INTEGRATION TEST HOMEPAGE REDIRECT ")
+
+        response = tester.get('/mods', content_type='html/text', follow_redirects=True)
+        self.assertEqual(response.status_code, 200)
+        print("\n SUCCESSFUL INTEGRATION TEST MODS REDIRECT ")
+
+        response = tester.get('/forums', content_type='html/text', follow_redirects=True)
+        self.assertEqual(response.status_code, 200)
+        print("\n SUCCESSFUL INTEGRATION TEST FORUMS REDIRECT ")
+
+        response = tester.post(
+            '/login',
+            data=dict(email="joe@gmail.con", password="joe"),
+            follow_redirects=True
+        )
+        self.assertTrue(b"I can't find those credentials", response.data)
+        print("\n SUCCESSFUL INTEGRATION TEST WRONG LOGIN ")
+
         response = tester.post(
             '/login',
             data=dict(email="joe@gmail.com", password="joe"),
