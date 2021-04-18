@@ -1,9 +1,9 @@
 from flask import Flask
-from flask_wtf.csrf import CSRFProtect
+from flask_wtf.csrf import CsrfProtect
 
 # starting the app
 app = Flask(__name__)
-CSRFProtect(app)
+csrf = CsrfProtect()
 
 # secret key to make some stuff work
 app.config['SECRET_KEY'] = 'hardsecretkey'
