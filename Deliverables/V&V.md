@@ -93,7 +93,30 @@ Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad M
   - How would you rate the website from 1-10 and why?\
   I would rate it as a 10 because it's really cool and it's different from other websites. It is very inviting and makes me wana download stuff. It makes me happy before I destroy my games with all the mods I download.
   
+  #### Zach (last name not provided)
+  - How do you like the design of PlayersForge?\
+  It's better than stuff like GameBanana, but it feels really empty.
+  - Move around each page, do you like the designs of the other pages?\
+  They're about the same.
+  - View and download a mod from the Homepage/Featured Mods page. How do you feel about the process?\
+  I don't see anything wrong with the process.
+  - Is there something that you would change about the process?\
+  One somewhat related thing is that the description is wrong, it should give the mod description instead of the game description.
+  - Try making an account with PlayersForge. Was it difficult to find the signup page?\
+  Nope.
+  - If so, how and what would you change?\
+  N/A
+  - Upload a fake mod. How did you feel about this process?\
+  I didn't dislike anything about it.
+  - If you could change certain aspects of the current website, what would you do?\
+  I think it just needs to not look so empty. Maybe add more stuff in your webpages.
+  - How would you rate the website from 1-10 and why?\
+  It's about a 6 maybe. If there were more functions and more options on the site then I think it would be pretty usable.
+
   ### Reflections
   
   #### Myles Abril
   After the user evaluation with Myles, I came to a conclusion that the main changes of the website that could pull in users are more features. Myles thoroughly enjoyed the design of the website, and mainly brought up some additions to the uploading process and the overall website. It seemed as though the website was easy to navigate, and pleasing to look at. Myles performed each task as expected, though, he is an avid gamer and has experience in using previous modding websites, which could have given him an advantage.
+
+  #### Zach
+  I conclude that the website is functionally okay but feels a bit empty because of our lack of features. There wasn't much about the existing features that needed changing, but the website doesn't feel complete (and frankly it isn't). The processes for downloading and uploading files turned out to be fine for Zach, especially as someone with past experience with modding websites.
