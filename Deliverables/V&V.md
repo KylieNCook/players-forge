@@ -106,8 +106,31 @@ Link to Trello: [https://trello.com/b/ryqaAZtg/d6-implementation-2](https://trel
   Maybe have a games section.
   - How would you rate the website from 1-10 and why?\
   I would rate it as a 10 because it's really cool and it's different from other websites. It is very inviting and makes me wana download stuff. It makes me happy before I destroy my games with all the mods I download.
+  #### Daniel Smith
+  - How do you like the design of PlayersForge?\
+   It's great! The layout is simple but easy to understand. The home page is an eye catcher.
+  - Move around each page, do you like the designs of the other pages?\
+    I like the designs. They mesh well together and none of them feel like shouldn’t belong there. 
+  - View and download a mod from the Homepage/Featured Mods page. How do you feel about the process?\
+    The process is very simple and intuitive.
+  - Is there something that you would change about the process?\
+    I can't think of something at the moment.
+  - Try making an account with PlayersForge. Was it difficult to find the signup page?\
+    It wasn't difficult at all. I found the page without a hassle.
+  - If so, how and what would you change?\
+    N/A
+  - Upload a fake mod. How did you feel about this process?\
+    The process wasn't complicated. I think anyone could do it without a problem.
+  - If you could change certain aspects of the current website, what would you do?\
+    A search option would be really cool if you take in account a lot of people uploading mods. Different way to categorize mods/games would also be nice.
+  - How would you rate the website from 1-10 and why?\
+    I would rate it a 9. There is a lot to love about the site. There is also a lot of potential when it comes to categorizing and searching for mods. The layout of the site is nice and if it were fully developed I would definitely use it. Overall, I love it.
+ 
   
   ### Reflections
   
   #### Myles Abril
   After the user evaluation with Myles, I came to a conclusion that the main changes of the website that could pull in users are more features. Myles thoroughly enjoyed the design of the website, and mainly brought up some additions to the uploading process and the overall website. It seemed as though the website was easy to navigate, and pleasing to look at. Myles performed each task as expected, though, he is an avid gamer and has experience in using previous modding websites, which could have given him an advantage.
+  #### Daniel Smith
+  The evaluation with Daniel went well. His input gave me the idea that there is a lot of potential to the site and more features such as a search and categories option would be amazing additions. Daniel went through all of the tasks with ease. Although he plays a lot of games and has experience in the modding community, he made it clear that the website would be able to be used by newcomers to gaming and the modding community.
+ 
