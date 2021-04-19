@@ -25,7 +25,7 @@
                 </div>
                 <div class="w3-display-container" style="font-size: 20px">
                     <button onclick="document.getElementById('{{mod.id}}').style.display='block'"
-                    class="w3-button w3-bebas w3-hover-black w3-hover-text-white w3-blue w3-block w3-center-align"><i class="fa fa-fw fa-eye"></i> View</button>
+                    name="view" class="w3-button w3-bebas w3-hover-black w3-hover-text-white w3-blue w3-block w3-center-align"><i class="fa fa-fw fa-eye"></i> View</button>
                     
                     <div id={{mod.id}} class="w3-modal">
                         <div class="w3-modal-content w3-card-4 w3-animate-zoom" style="width: 450px;">
@@ -45,7 +45,7 @@
                             </div>
                             <div class="w3-center">
                                 <a href="{{url_for('static', filename=mod.data)}}" style="text-decoration: none"download>
-                                    <button class="w3-button w3-bebas w3-blue w3-hover-black w3-hover-text-white 
+                                    <button name="download" class="w3-button w3-bebas w3-blue w3-hover-black w3-hover-text-white 
                                     w3-block w3-center-align"><i class="fa fa-fw fa-download"></i>Download</button>
                                 </a>
                             </div>

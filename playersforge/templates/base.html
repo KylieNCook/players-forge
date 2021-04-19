@@ -29,11 +29,11 @@
                 <!-- holds and styles the other navigation buttons -->
                 <em class="fa fa-fw fa-search"></em><input style="margin-top: 10px" type="text" name="search" placeholder="Search...">
                 <div class="w3-right" style="padding-top: 3px">
-                    <a href="{{url_for('mods')}}" class="w3-bar-item w3-button w3-hover-white">
+                    <a name="mods" href="{{url_for('mods')}}" class="w3-bar-item w3-button w3-hover-white">
                         <em class="fa fa-fw fa-gamepad"></em> 
                         Mods
                     </a>
-                    <a href="{{url_for('forums')}}" class="w3-bar-item w3-button w3-hover-white">
+                    <a name="forums" href="{{url_for('forums')}}" class="w3-bar-item w3-button w3-hover-white">
                         <em class="fa fa-fw fa-sticky-note"></em> 
                         Forums
                     </a>
@@ -42,18 +42,18 @@
                     <!-- if so, show 'Profile', if not, show 'Login' -->
                     {% if current_user.is_authenticated %}
                         <!-- direct to profile route -->
-                        <a href="{{url_for('profile')}}" class="w3-bar-item w3-button w3-hover-white">
+                        <a name="profile" href="{{url_for('profile')}}" class="w3-bar-item w3-button w3-hover-white">
                             <em class="fa fa-fw fa-user"></em> 
                             Profile
                         </a>
                         <!-- direct to profile route -->
-                        <a href="{{url_for('logout')}}" class="w3-bar-item w3-button w3-hover-white">
+                        <a name="logout" href="{{url_for('logout')}}" class="w3-bar-item w3-button w3-hover-white">
                             <em class="fa fa-fw fa-sign-out"></em> 
                             Logout
                         </a>
                     {% else %}
                         <!-- direct to login route -->
-                        <a href="{{url_for('login')}}" class="w3-bar-item w3-button w3-hover-white">
+                        <a name="login" href="{{url_for('login')}}" class="w3-bar-item w3-button w3-hover-white">
                             <em class="fa fa-fw fa-user"></em> 
                             Login
                         </a>
