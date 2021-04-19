@@ -5,6 +5,20 @@ Group Members: Kylie Cook, Fernando Diaz, David Hermann, Jared McNeece, Conrad M
 
 ## 1. Description
 
+PlayersForge is a website with a dedicated, free to join community for uploading and downloading mods. 
+Users can access the PlayersForge website on their web browser and sign up to become a part of the 
+modding community. Modders also can gain access to mods such as skins and maps without signing up.
+Each of the mods are categorized  and sorted by the game they are for and the type of mod.
+
+The PlayersForge website is currently still in early development, with multiple features to be 
+implemented in the near future such as a community forum and dedicated mod pages. The website 
+provides a sleek and simple design, allowing for users to easily navigate and locate their desired 
+mods. The homepage currently features the most popular or most downloaded mods.
+
+Link to GitHub: [https://github.com/KylieNCook/players-forge](https://github.com/KylieNCook/players-forge)
+Link to Trello: [https://trello.com/b/ryqaAZtg/d6-implementation-2](https://trello.com/b/ryqaAZtg/d6-implementation-2)
+
+
 ## 2. Verification (tests)
 
   ### 2.1 Unit Test
