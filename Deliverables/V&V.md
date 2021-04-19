@@ -155,7 +155,7 @@ Link to Trello: [https://trello.com/b/ryqaAZtg/d6-implementation-2](https://trel
 
   #### Zach
   I conclude that the website is functionally okay but feels a bit empty because of our lack of features. There wasn't much about the existing features that needed changing, but the website doesn't feel complete (and frankly it isn't). The processes for downloading and uploading files turned out to be fine for Zach, especially as someone with past experience with modding websites.
-=======
+
   #### Daniel Smith
   The evaluation with Daniel went well. His input gave me the idea that there is a lot of potential to the site and more features such as a search and categories option would be amazing additions. Daniel went through all of the tasks with ease. Although he plays a lot of games and has experience in the modding community, he made it clear that the website would be able to be used by newcomers to gaming and the modding community.
  
